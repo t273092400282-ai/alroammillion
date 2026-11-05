@@ -1,0 +1,2499 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl"><head><script data-bard-client-injected="true">(function(firebaseConfig, initialAuthToken, appId) {
+        window.__firebase_config = firebaseConfig;
+        window.__initial_auth_token = initialAuthToken;
+        window.__app_id = appId;
+            })("\n{\n  \"apiKey\": \"AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY\",\n  \"authDomain\": \"bard-frontend.firebaseapp.com\",\n  \"projectId\": \"bard-frontend\",\n  \"storageBucket\": \"bard-frontend.firebasestorage.app\",\n  \"messagingSenderId\": \"175205271074\",\n  \"appId\": \"1:175205271074:web:2b7bd4d34d33bf38e6ec7b\"\n}\n","eyJhbGciOiJSUzI1NiIsImtpZCI6IjExNjRiNzdiNDMzZDdhMDAyMWI4NjE4YjhjYTU3ZTMyZGI5MWUxMTMiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1mYnN2Y0BiYXJkLWZyb250ZW5kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJ1aWQiOiIwNzgxNTYxODE2NjE5MzUzNjY2OSIsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLWZic3ZjQGJhcmQtZnJvbnRlbmQuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJjbGFpbXMiOnsiYXBwSWQiOiJjXzI1ODFjZWFiMzM5MDdkMDNfc3VyYXRfYXJfcnVtX2dhbWUuaHRtbC02NDMifSwiZXhwIjoxNzkzOTE1NjQ5LCJpYXQiOjE3OTM5MTIwNDksImFsZyI6IlJTMjU2In0.nzA_gy66yiXgYvxwJuJsYQXXaWOSgTnWQMuFo4xrg6qzWjVEtt43fG8OJ6h6kwXQnVq-aAEYpTtPpvDcfIQko-Mhuf6ULu5GRdcp0gF0tPiOi9kO8SalxmMzSBIrPfZXI_tqWods8cdKK6YblUSRXvb-D48IYmQgmsDFlEPGbLv7KjndIyLMDgHB6DEet29ZOMj-jitmmhi6RiD2REAZKFBBIpAMsYstVj4oilJ8u0hBMQ7b8Vw3k-2p9LIJVIFD7i9jA3juhZNos21c9L_M5l4ozbYg8CHaGCymS70yyfqPpDxRm6MK4GF3oRbjw1uxMWiEdDCiZ-0A1x84xgzmog","c_2581ceab33907d03_surat_ar_rum_game.html-643")</script><script data-bard-client-injected="true">
+  document.addEventListener('input', (event) => {
+    if (event.target && (event.target.isContentEditable || event.target.hasAttribute('contenteditable'))) {
+      const clonedDoc = document.cloneNode(true);
+      const injectedScripts = clonedDoc.querySelectorAll('[data-bard-client-injected="true"]');
+      injectedScripts.forEach(el => el.remove());
+      window.parent.postMessage({
+        type: 'inlineEdit',
+        html: '<!DOCTYPE html>\n' + clonedDoc.documentElement.outerHTML
+      }, '*');
+    }
+  });
+</script><script data-bard-client-injected="true">(function(){'use strict';window.addEventListener("message",a=>{a.data&&a.data.type==="SUPPLEMENTAL_DATA_UPDATE"&&window.dispatchEvent(new CustomEvent("supplementaldataupdate",{detail:a.data.data}))});}).call(this);
+</script><script data-bard-client-injected="true">(function(){'use strict';var k=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,d){if(a==Array.prototype||a==Object.prototype)return a;a[b]=d.value;return a};function m(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var d=a[b];if(d&&d.Math==Math)return d}throw Error("Cannot find global object");}var q=m(this);
+function r(a,b){if(b)a:{var d=q;a=a.split(".");for(var c=0;c<a.length-1;c++){var e=a[c];if(!(e in d))break a;d=d[e]}a=a[a.length-1];c=d[a];b=b(c);b!=c&&b!=null&&k(d,a,{configurable:!0,writable:!0,value:b})}}function t(a){function b(c){return a.next(c)}function d(c){return a.throw(c)}return new Promise(function(c,e){function f(g){g.done?c(g.value):Promise.resolve(g.value).then(b,d).then(f,e)}f(a.next())})}function u(a){return t(a())}
+r("Object.values",function(a){return a?a:function(b){var d=[],c;for(c in b)Object.prototype.hasOwnProperty.call(b,c)&&d.push(b[c]);return d}});r("Array.prototype.includes",function(a){return a?a:function(b,d){var c=this;c instanceof String&&(c=String(c));var e=c.length;d=d||0;for(d<0&&(d=Math.max(d+e,0));d<e;d++){var f=c[d];if(f===b||Object.is(f,b))return!0}return!1}});/*
+
+ MIT License
+
+ Copyright (c) 2017-2023 W.Y.
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+*/
+function v(a,b){var d=a.style;b.backgroundColor&&(d.backgroundColor=b.backgroundColor);b.width&&(d.width=`${b.width}px`);b.height&&(d.height=`${b.height}px`);var c=b.style;c!=null&&Object.keys(c).forEach(e=>{d[e]=c[e]})};var aa=(()=>{var a=0;return()=>{a+=1;return`u${`0000${(Math.random()*1679616<<0).toString(36)}`.slice(-4)}${a}`}})();function w(a){var b=[];for(let d=0,c=a.length;d<c;d++)b.push(a[d]);return b}let y=null;function z(a={}){return y?y:a.u?y=a.u:y=w(window.getComputedStyle(document.documentElement))}function A(a,b){return(a=(a.ownerDocument.defaultView||window).getComputedStyle(a).getPropertyValue(b))?parseFloat(a.replace("px","")):0}
+function B(a,b={}){var d;if(!(d=b.width)){d=A(a,"border-left-width");var c=A(a,"border-right-width");d=a.clientWidth+d+c}(b=b.height)||(b=A(a,"border-top-width"),c=A(a,"border-bottom-width"),b=a.clientHeight+b+c);return{width:d,height:b}}function C(a){return new Promise((b,d)=>{var c=new Image;c.onload=()=>{c.decode().then(()=>{requestAnimationFrame(()=>b(c))})};c.onerror=d;c.crossOrigin="anonymous";c.decoding="async";c.src=a})}
+function ba(a){return u(function*(){return Promise.resolve().then(()=>(new XMLSerializer).serializeToString(a)).then(encodeURIComponent).then(b=>`data:image/svg+xml;charset=utf-8,${b}`)})}
+function ca(a,b,d){return u(function*(){var c=document.createElementNS("http://www.w3.org/2000/svg","svg"),e=document.createElementNS("http://www.w3.org/2000/svg","foreignObject");c.setAttribute("width",`${b}`);c.setAttribute("height",`${d}`);c.setAttribute("viewBox",`0 0 ${b} ${d}`);e.setAttribute("width","100%");e.setAttribute("height","100%");e.setAttribute("x","0");e.setAttribute("y","0");e.setAttribute("externalResourcesRequired","true");c.appendChild(e);e.appendChild(a);return ba(c)})}
+var D=(a,b)=>{if(a instanceof b)return!0;a=Object.getPrototypeOf(a);return a===null?!1:a.constructor.name===b.name||D(a,b)};function da(a,b){return z(b).map(d=>{var c=a.getPropertyValue(d),e=a.getPropertyPriority(d);return`${d}: ${c}${e?" !important":""};`}).join(" ")}
+function E(a,b,d,c){a=window.getComputedStyle(a,d);var e=a.getPropertyValue("content");if(e!==""&&e!=="none"){var f=aa();try{b.className=`${b.className} ${f}`}catch(h){return}e=document.createElement("style");var g=e.appendChild;d=`.${f}:${d}`;a.cssText?(c=a.getPropertyValue("content"),c=`${a.cssText} content: '${c.replace(/'|"/g,"")}';`):c=da(a,c);g.call(e,document.createTextNode(`${d}{${c}}`));b.appendChild(e)}};function F(a){return a.search(/^(data:)/)!==-1}function G(a,b,d){return u(function*(){var c=yield fetch(a,b);if(c.status===404)throw Error(`Resource "${c.url}" not found`);var e=yield c.blob();return new Promise((f,g)=>{var h=new FileReader;h.onerror=g;h.onloadend=()=>{try{f(d({v:c,result:h.result}))}catch(l){g(l)}};h.readAsDataURL(e)})})}const H={};function ea(a,b,d){var c=a.replace(/\?.*/,"");d&&(c=a);/ttf|otf|eot|woff2?/i.test(c)&&(c=c.replace(/.*\//,""));return b?`[${b}]${c}`:c}
+function I(a,b,d){return u(function*(){var c=ea(a,b,d.F);if(H[c]!=null)return H[c];d.B&&(a+=(/\?/.test(a)?"&":"?")+(new Date).getTime());try{let f=yield G(a,d.l,({v:g,result:h})=>{b||(b=g.headers.get("Content-Type")||"");return h.split(/,/)[1]});var e=`data:${b};base64,${f}`}catch(f){e=d.o||""}return H[c]=e})};const J={R:"application/font-woff",S:"application/font-woff",O:"application/font-truetype",C:"application/vnd.ms-fontobject",J:"image/png",H:"image/jpeg",G:"image/jpeg",D:"image/gif",N:"image/tiff",M:"image/svg+xml",P:"image/webp"};function K(a){return(a=/\.([^./]*?)$/g.exec(a))?a[1]:""};function fa(a){return u(function*(){var b=a.toDataURL();return b==="data:,"?a.cloneNode(!1):C(b)})}function ha(a,b){return u(function*(){if(a.currentSrc){var d=document.createElement("canvas");let c=d.getContext("2d");d.width=a.clientWidth;d.height=a.clientHeight;c==null||c.drawImage(a,0,0,d.width,d.height);d=d.toDataURL();return C(d)}d=a.poster;d=yield I(d,J[K(d).toLowerCase()]||"",b);return C(d)})}
+function ia(a,b){return u(function*(){try{let d;if(a==null?0:(d=a.contentDocument)==null?0:d.body)return yield L(a.contentDocument.body,b,!0)}catch(d){}return a.cloneNode(!1)})}function ja(a,b){return u(function*(){return D(a,HTMLCanvasElement)?fa(a):D(a,HTMLVideoElement)?ha(a,b):D(a,HTMLIFrameElement)?ia(a,b):a.cloneNode(a.tagName!=null&&a.tagName.toUpperCase()==="SVG")})}
+function ka(a,b,d){return u(function*(){if(b.tagName!=null&&b.tagName.toUpperCase()==="SVG")return b;var c=[];if(a.tagName!=null&&a.tagName.toUpperCase()==="SLOT"&&a.assignedNodes)c=w(a.assignedNodes());else{let e;if(D(a,HTMLIFrameElement)&&((e=a.contentDocument)==null?0:e.body))c=w(a.contentDocument.body.childNodes);else{let f;c=w(((f=a.shadowRoot)!=null?f:a).childNodes)}}if(c.length===0||D(a,HTMLVideoElement))return b;yield c.reduce((e,f)=>e.then(()=>L(f,d)).then(g=>{g&&b.appendChild(g)}),Promise.resolve());
+return b})}function la(a,b,d){var c=b.style;if(c){var e=window.getComputedStyle(a);e.cssText?(c.cssText=e.cssText,c.transformOrigin=e.transformOrigin):z(d).forEach(f=>{var g=e.getPropertyValue(f);f==="font-size"&&g.endsWith("px")&&(g=`${Math.floor(parseFloat(g.substring(0,g.length-2)))-.1}px`);D(a,HTMLIFrameElement)&&f==="display"&&g==="inline"&&(g="block");f==="d"&&b.getAttribute("d")&&(g=`path(${b.getAttribute("d")})`);c.setProperty(f,g,e.getPropertyPriority(f))})}}
+function ma(a,b){D(a,HTMLSelectElement)&&(b=Array.from(b.children).find(d=>a.value===d.getAttribute("value")))&&b.setAttribute("selected","")}
+function na(a,b){return u(function*(){var d=a.querySelectorAll?a.querySelectorAll("use"):[];if(d.length===0)return a;var c={};for(var e=0;e<d.length;e++){var f=d[e].getAttribute("xlink:href");if(f){let g=document.querySelector(f);a.querySelector(f)||!g||c[f]||(c[f]=yield L(g,b,!0))}}d=Object.values(c);if(d.length){c=document.createElementNS("http://www.w3.org/1999/xhtml","svg");c.setAttribute("xmlns","http://www.w3.org/1999/xhtml");c.style.position="absolute";c.style.width="0";c.style.height="0";
+c.style.overflow="hidden";c.style.display="none";e=document.createElementNS("http://www.w3.org/1999/xhtml","defs");c.appendChild(e);for(f=0;f<d.length;f++)e.appendChild(d[f]);a.appendChild(c)}return a})}
+function L(a,b,d){return u(function*(){return d||!b.filter||b.filter(a)?Promise.resolve(a).then(c=>ja(c,b)).then(c=>ka(a,c,b)).then(c=>{D(c,Element)&&(la(a,c,b),E(a,c,":before",b),E(a,c,":after",b),D(a,HTMLTextAreaElement)&&(c.textContent=a.value),D(a,HTMLInputElement)&&c.setAttribute("value",a.value),ma(a,c));return c}).then(c=>na(c,b)):null})};const M=/url\((['"]?)([^'"]+?)\1\)/g,oa=/url\([^)]+\)\s*format\((["']?)([^"']+)\1\)/g,pa=/src:\s*(?:url\([^)]+\)\s*format\([^)]+\)[,;]\s*)+/g;function qa(a){var b=[];a.replace(M,(d,c,e)=>{b.push(e);return d});return b.filter(d=>!F(d))}
+function ra(a,b,d,c){return u(function*(){try{let e=d?(new URL(b,d||void 0)).toString():b,f;f=yield I(e,J[K(b).toLowerCase()]||"",c);return a.replace(new RegExp(`(url\\(['"]?)(${b.replace(/([.*+?^${}()|\[\]\/\\])/g,"\\$1")})(['"]?\\))`,"g"),`$1${f}$3`)}catch(e){}return a})}function sa(a,{K:b}){return b?a.replace(pa,d=>{for(;;){let [c,,e]=oa.exec(d)||[];if(!e)return"";if(e===b)return`src: ${c};`}}):a}
+function N(a,b,d){return u(function*(){if(a.search(M)===-1)return a;var c=sa(a,d);return qa(c).reduce((e,f)=>e.then(g=>ra(g,f,b,d)),Promise.resolve(c))})};function O(a,b,d){return u(function*(){var c,e=(c=b.style)==null?void 0:c.getPropertyValue(a);return e?(c=yield N(e,null,d),b.style.setProperty(a,c,b.style.getPropertyPriority(a)),!0):!1})}function ta(a,b){return u(function*(){(yield O("background",a,b))||(yield O("background-image",a,b));(yield O("mask",a,b))||(yield O("-webkit-mask",a,b))||(yield O("mask-image",a,b))||(yield O("-webkit-mask-image",a,b))})}
+function ua(a,b){return u(function*(){var d=D(a,HTMLImageElement);if(d&&!F(a.src)||D(a,SVGImageElement)&&!F(a.href.baseVal)){var c=d?a.src:a.href.baseVal,e=yield I(c,J[K(c).toLowerCase()]||"",b);yield new Promise((f,g)=>{a.onload=f;a.onerror=b.h?(...h)=>{try{f(b.h(...h))}catch(l){g(l)}}:g;a.decode&&(a.decode=f);a.loading==="lazy"&&(a.loading="eager");d?(a.srcset="",a.src=e):a.href.baseVal=e})}})}
+function va(a,b){return u(function*(){var d=w(a.childNodes).map(c=>P(c,b));yield Promise.all(d).then(()=>a)})}function P(a,b){return u(function*(){D(a,Element)&&(yield ta(a,b),yield ua(a,b),yield va(a,b))})};const Q={};function R(a){return u(function*(){var b=Q[a];if(b!=null)return b;b=yield(yield fetch(a)).text();b={url:a,cssText:b};return Q[a]=b})}function S(a,b){return u(function*(){var d=a.cssText,c=/url\(["']?([^"')]+)["']?\)/g,e=(d.match(/url\([^)]+\)/g)||[]).map(f=>u(function*(){var g=f.replace(c,"$1");g.startsWith("https://")||(g=(new URL(g,a.url)).href);return G(g,b.l,({result:h})=>{d=d.replace(f,`url(${h})`);return[f,h]})}));return Promise.all(e).then(()=>d)})}
+function T(a){if(a==null)return[];var b=[];a=a.replace(/(\/\*[\s\S]*?\*\/)/gi,"");for(var d=RegExp("((@.*?keyframes [\\s\\S]*?){([\\s\\S]*?}\\s*?)})","gi");;){var c=d.exec(a);if(c===null)break;b.push(c[0])}a=a.replace(d,"");d=/@import[\s\S]*?url\([^)]*\)[\s\S]*?;/gi;for(c=RegExp("((\\s*?(?:\\/\\*[\\s\\S]*?\\*\\/)?\\s*?@media[\\s\\S]*?){([\\s\\S]*?)}\\s*?})|(([\\s\\S]*?){([\\s\\S]*?)})","gi");;){let e=d.exec(a);if(e===null)if(e=c.exec(a),e===null)break;else d.lastIndex=c.lastIndex;else c.lastIndex=
+d.lastIndex;b.push(e[0])}return b}
+function wa(a,b){return u(function*(){var d=[],c=[];a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach((f,g)=>{if(f.type===CSSRule.IMPORT_RULE){let h=g+1;f=R(f.href).then(l=>S(l,b)).then(l=>T(l).forEach(p=>{try{e.insertRule(p,p.startsWith("@import")?h+=1:e.cssRules.length)}catch(x){}})).catch(()=>{});c.push(f)}})}catch(f){let g=a.find(h=>h.href==null)||document.styleSheets[0];e.href!=null&&c.push(R(e.href).then(h=>S(h,b)).then(h=>T(h).forEach(l=>{g.insertRule(l,g.cssRules.length)})).catch(()=>
+{}))}});return Promise.all(c).then(()=>{a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach(f=>{d.push(f)})}catch(f){}});return d})})}function xa(a){return a.filter(b=>b.type===CSSRule.FONT_FACE_RULE).filter(b=>b.style.getPropertyValue("src").search(M)!==-1)}function ya(a,b){return u(function*(){if(a.ownerDocument==null)throw Error("Provided element is not within a Document");var d=yield wa(w(a.ownerDocument.styleSheets),b);return xa(d)})}
+function za(a){function b(c){(c.style.fontFamily||getComputedStyle(c).fontFamily).split(",").forEach(e=>{d.add(e.trim().replace(/["']/g,""))});Array.from(c.children).forEach(e=>{e instanceof HTMLElement&&b(e)})}var d=new Set;b(a);return d}function Aa(a,b){return u(function*(){var d=yield ya(a,b),c=za(a);return(yield Promise.all(d.filter(e=>c.has(e.style.fontFamily.trim().replace(/["']/g,""))).map(e=>N(e.cssText,e.parentStyleSheet?e.parentStyleSheet.href:null,b)))).join("\n")})}
+function Ba(a,b){return u(function*(){var d=b.m!=null?b.m:b.A?null:yield Aa(a,b);if(d){let c=document.createElement("style");c.appendChild(document.createTextNode(d));a.firstChild?a.insertBefore(c,a.firstChild):a.appendChild(c)}})};function Ca(a,b={}){return u(function*(){var {width:d,height:c}=B(a,b),e=yield L(a,b,!0);yield Ba(e,b);yield P(e,b);v(e,b);return yield ca(e,d,c)})}
+function Da(a,b={}){return u(function*(){var {width:d,height:c}=B(a,b),e=yield Ca(a,b);e=yield C(e);var f=document.createElement("canvas"),g=f.getContext("2d"),h=b.I||window.devicePixelRatio||1,l=b.j||d,p=b.i||c;f.width=l*h;f.height=p*h;!b.L&&(f.width>16384||f.height>16384)&&(f.width>16384&&f.height>16384?f.width>f.height?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=16384):f.width>16384?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=16384));
+f.style.width=`${l}`;f.style.height=`${p}`;b.backgroundColor&&(g.fillStyle=b.backgroundColor,g.fillRect(0,0,f.width,f.height));g.drawImage(e,0,0,f.width,f.height);return f})}function Ea(a,b={}){return u(function*(){return(yield Da(a,b)).toDataURL()})};const Fa=["gemini.google.com","corp.google.com","proxy.googlers.com"];function V(a){a=Number(a.replace(/px$/,""));return Number.isFinite(a)?a:0}function W(){return document.body.querySelectorAll('[class*="animate"]').length>0}function X(a,b){var d=document.createElement("canvas");d.width=a;d.height=b;return d.toDataURL("image/png")}const Y=X(1,1);
+function Z(a,b){return u(function*(){var d=Math.max(b?b.width:a.offsetWidth,1),c=Math.max(b?b.height:a.offsetHeight,1),e=HTMLCanvasElement.prototype.toDataURL;b&&(HTMLCanvasElement.prototype.toDataURL=function(f,g){var h;if(h=this.isConnected&&a.contains(this)){{let n=this.getBoundingClientRect();if(n.width===0||n.height===0)h=!1;else if(window.getComputedStyle(this).position==="fixed")h=n.bottom>0&&n.top<b.height&&n.right>0&&n.left<b.width;else{h=a.getBoundingClientRect();var l=n.top-h.top,p=n.left-
+h.left,x=n.right-h.left;h=n.bottom-h.top>b.scrollTop&&l<b.scrollTop+b.height&&x>b.scrollLeft&&p<b.scrollLeft+b.width}}h=!h}return h?"data:,":e.call(this,f,g)});try{let f=window.getComputedStyle(a),g=b?`${V(f.marginTop)-b.scrollTop}px`:void 0,h=b?`${V(f.marginLeft)-b.scrollLeft}px`:void 0,l=`${Math.max(a.offsetWidth,d)}px`,p,x=`${Math.max(a.offsetHeight,c+((p=b==null?void 0:b.scrollTop)!=null?p:0))}px`;return yield Ea(a,Object.assign({},{width:d,height:c,j:d,i:c},b?{style:{width:l,height:x,marginTop:g,
+marginLeft:h,marginBlockStart:g,marginInlineStart:h}}:{},{A:!0,filter:n=>{if(n.tagName==="IMG"){let U=n.getAttribute("src");if(!U||U.trim()===""||n.style.display==="none")return!1}return!0},o:Y,h:()=>Y}))}catch(f){return X(d,c)}finally{HTMLCanvasElement.prototype.toDataURL=e}})}
+function Ga(){return u(function*(){var a=document.body.offsetWidth,b=document.body.offsetHeight,d=document.body.cloneNode(!0);d.querySelectorAll('[class*="animate"]').forEach(c=>{c.classList.remove(...Array.from(c.classList).filter(e=>e.startsWith("animate")))});d.style.width=`${a}px`;d.style.height=`${b}px`;return d})}
+function Ha(a){return u(function*(){var b={width:window.innerWidth||document.documentElement.clientWidth||document.body.offsetWidth,height:window.innerHeight||document.documentElement.clientHeight||document.body.offsetHeight,scrollTop:window.scrollY||document.documentElement.scrollTop||document.body.scrollTop||0,scrollLeft:window.scrollX||document.documentElement.scrollLeft||document.body.scrollLeft||0},d=document.body;if(W()){let c=yield Ga();d=c;document.body.appendChild(c)}b=yield Z(d,b);W()&&
+document.body.removeChild(d);window.parent.postMessage({type:"SEND_SCREENSHOT",image:b,topOffset:0},a.origin)})}function Ia(a){return u(function*(){var b={type:"SEND_SCREENSHOT_FOR_DATA_VISUALIZATION",image:yield Z(document.body),topOffset:0};window.parent.postMessage(b,a.origin)})}window.addEventListener("message",a=>u(function*(){if(Fa.some(d=>a.origin.includes(d))){var b=a.data;b&&(b.type==="MAKE_SCREENSHOT"&&(yield Ha(a)),b.type==="MAKE_SCREENSHOT_FOR_DATA_VISUALIZATION"&&(yield Ia(a)))}}));
+})();</script><script data-bard-client-injected="true">(function() {
+  // Ensure this script is executed only once
+  if (window.firebaseAuthBridgeScriptLoaded) {
+    return;
+  }
+  window.firebaseAuthBridgeScriptLoaded = true;
+
+  let nextTokenPromiseId = 0;
+
+  // Stores { resolve, reject } for ongoing token requests
+  const pendingTokenPromises = {};
+
+  // Listen for messages from the Host Application
+  window.addEventListener('message', function(event) {
+
+    const messageData = event.data;
+
+  if (messageData && messageData.type === 'RESOLVE_NEW_FIREBASE_TOKEN') {
+      const { success, token, error, promiseId } = messageData ?? {};
+      if (pendingTokenPromises[promiseId]) {
+        if (success) {
+          pendingTokenPromises[promiseId].resolve(token);
+        } else {
+          pendingTokenPromises[promiseId].reject(new Error(error || 'Token refresh failed from host.'));
+        }
+        delete pendingTokenPromises[promiseId];
+      }
+    }
+  });
+
+  // Expose a function for the Generated App to request a new Firebase token
+  window.requestNewFirebaseToken = function() {
+    const currentPromiseId = nextTokenPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingTokenPromises[currentPromiseId] = { resolve, reject };
+    });
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({
+        type: 'REQUEST_NEW_FIREBASE_TOKEN',
+        promiseId: currentPromiseId
+      }, '*');
+    } else {
+      pendingTokenPromises[currentPromiseId].reject(new Error('No parent window to request token from.'));
+      delete pendingTokenPromises[currentPromiseId];
+    }
+    return promise;
+  };
+})();</script><script data-bard-client-injected="true">
+let realOriginalGetUserMedia = null;
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+  realOriginalGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+}
+
+(function() {
+  if (navigator.mediaDevices && navigator.mediaDevices.__proto__) {
+    try {
+      Object.defineProperty(navigator.mediaDevices.__proto__, 'getUserMedia', {
+        get: function() {
+          return undefined; // Or throw an error
+        },
+        configurable: false
+      });
+    } catch (error) {
+      console.error("Error defining prototype getter:", error);
+    }
+  }
+})();
+
+(function() {
+  const pendingMediaResolvers = {};
+  let nextMediaPromiseId = 0;
+
+  function requestMediaPermissions(constraints) {
+    const mediaPromiseId = nextMediaPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingMediaResolvers[mediaPromiseId] = (granted) => {
+        delete pendingMediaResolvers[mediaPromiseId];
+        resolve(granted);
+      };
+    });
+
+    window.parent.postMessage({
+      type: 'requestMediaPermission',
+      constraints: constraints,
+      promiseId: mediaPromiseId,
+    }, '*');
+
+    return promise;
+  }
+
+  let originalGetUserMedia = realOriginalGetUserMedia;
+
+  function interceptGetUserMedia() {
+    if (navigator.mediaDevices) {
+      Object.defineProperty(navigator.mediaDevices, 'getUserMedia', {
+        value: function(constraints) {
+          return requestMediaPermissions(constraints).then((granted) => {
+            if (granted) {
+              if (originalGetUserMedia) {
+                return originalGetUserMedia(constraints);
+              } else {
+                throw new Error("Original getUserMedia not available.");
+              }
+            } else {
+              throw new DOMException('Permission denied', 'NotAllowedError');
+            }
+          });
+        },
+        writable: false,
+        configurable: false
+      });
+    }
+  }
+
+  interceptGetUserMedia();
+
+  const observer = new MutationObserver(function(mutationsList, observer) {
+    for (const mutation of mutationsList) {
+      if (mutation.type === 'reconfigured' && mutation.name === 'getUserMedia' && mutation.object === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'attributes' && mutation.attributeName === 'getUserMedia' && mutation.target === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'childList' && mutation.addedNodes) {
+        mutation.addedNodes.forEach(node => {
+          if (node === navigator.mediaDevices) {
+            interceptGetUserMedia();
+          }
+        });
+      }
+    }
+  });
+
+  function interceptSpeechRecognition() {
+    if (!window.SpeechRecognition && !window.webkitSpeechRecognition) {
+      return;
+    }
+
+    const OriginalSpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    const SpeechRecognitionWrapper = function(...args) {
+      const recognizer = new OriginalSpeechRecognition(...args);
+      const originalStart = recognizer.start.bind(recognizer);
+
+      recognizer.start = function() {
+        requestMediaPermissions({ audio: true }).then(granted => {
+          if (granted) {
+            originalStart();
+          } else {
+            const errorEvent = new SpeechRecognitionErrorEvent('error');
+            errorEvent.error = 'not-allowed'; // This is the standard error for permission denial.
+            recognizer.dispatchEvent(errorEvent);
+          }
+        });
+      };
+
+      return recognizer;
+    };
+
+    SpeechRecognitionWrapper.prototype = OriginalSpeechRecognition.prototype;
+    SpeechRecognitionWrapper.prototype.constructor = SpeechRecognitionWrapper;
+
+    if (window.SpeechRecognition) {
+      window.SpeechRecognition = SpeechRecognitionWrapper;
+    }
+    if (window.webkitSpeechRecognition) {
+      window.webkitSpeechRecognition = SpeechRecognitionWrapper;
+    }
+  }
+
+  interceptSpeechRecognition();
+
+  window.addEventListener('message', function(event) {
+    if (event.data) {
+      if (event.data.type === 'resolveMediaPermission') {
+        const { promiseId, granted } = event.data;
+        if (pendingMediaResolvers[promiseId]) {
+          pendingMediaResolvers[promiseId](granted);
+        }
+      }
+    }
+  });
+
+})();</script><script ws-interception-config="{&quot;parentOrigin&quot;:&quot;https://gemini.google.com&quot;,&quot;proxiedDomains&quot;:[]}" data-bard-client-injected="true">(function(){'use strict';var u=typeof Object.defineProperties=="function"?Object.defineProperty:function(b,d,e){if(b==Array.prototype||b==Object.prototype)return b;b[d]=e.value;return b};function v(b){b=["object"==typeof globalThis&&globalThis,b,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var d=0;d<b.length;++d){var e=b[d];if(e&&e.Math==Math)return e}throw Error("Cannot find global object");}var w=v(this);
+function y(b,d){if(d)a:{var e=w;b=b.split(".");for(var h=0;h<b.length-1;h++){var k=b[h];if(!(k in e))break a;e=e[k]}b=b[b.length-1];h=e[b];d=d(h);d!=h&&d!=null&&u(e,b,{configurable:!0,writable:!0,value:d})}}function z(b){function d(h){return b.next(h)}function e(h){return b.throw(h)}return new Promise(function(h,k){function m(n){n.done?h(n.value):Promise.resolve(n.value).then(d,e).then(m,k)}m(b.next())})}y("globalThis",function(b){return b||w});/*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+function A(b,d){function e(){}e.prototype=d.prototype;b.j=d.prototype;b.prototype=new e;b.prototype.constructor=b;b.h=function(h,k,m){for(var n=Array(arguments.length-2),p=2;p<arguments.length;p++)n[p-2]=arguments[p];return d.prototype[k].apply(h,n)}};function B(b,d,e="*"){function h(a){if(typeof a==="string")return F.encode(a).buffer;if(a instanceof ArrayBuffer)return a.slice(0);if(ArrayBuffer.isView(a))return a.buffer.slice(a.byteOffset,a.byteOffset+a.byteLength);throw Error("Invalid data type");}function k(a){a=h(a);var f={type:"send",data:new Uint8Array(a)},g;(g=r)==null||g.postMessage(f,[a])}function m(){if(!r)throw Error("Data port not captured yet.");r.onmessage=a=>{if(a.data.type==="message"){a=new MessageEvent("message",{data:G.decode(a.data.data)});
+let f;(f=c.onmessage)==null||f.call(c,a);c.dispatchEvent(a)}}}function n(){if(!t)throw Error("Control port not captured yet.");t.onmessage=a=>{switch(a.data.type){case "open":l=1;var f=new Event("open"),g;(g=c.onopen)==null||g.call(c,f);c.dispatchEvent(f);q.forEach(H=>{k(H)});q=[];break;case "close":g=a.data;l=3;g=new CloseEvent("close",{code:g.code,reason:g.reason,wasClean:g.wasClean});(f=c.onclose)==null||f.call(c,g);c.dispatchEvent(g);break;case "error":l=3;f=new Event("error");let x;(x=c.onerror)==
+null||x.call(c,f);c.dispatchEvent(f)}}}function p(a){return z(function*(){var f=new MessageChannel;t=f.port1;var g=new MessageChannel;r=g.port1;n();m();window.parent.postMessage({type:"websocket_open",portOrdering:["control","data"],url:b,protocols:a||[],connectionId:I},e,[f.port2,g.port2])}())}var c=Reflect.construct(EventTarget,[],new.target);c.CONNECTING=0;c.OPEN=1;c.CLOSING=2;c.CLOSED=3;c.url=b;c.binaryType="arraybuffer";c.protocol="";c.i="";var l=0,t=null,r=null,q=[],F=new TextEncoder,G=new TextDecoder;
+c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;Object.defineProperty(c,"readyState",{get:()=>l,enumerable:!0,configurable:!0});Object.defineProperty(c,"bufferedAmount",{get:()=>{var a=0;q.forEach(f=>{a+=typeof f==="string"?f.length:f.byteLength});return a},enumerable:!0,configurable:!0});var I=function(){var a;return((a=globalThis.crypto)==null?0:a.randomUUID)?globalThis.crypto.randomUUID():"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,f=>{var g=Math.random()*16|0;return(f===
+"x"?g:g&3|8).toString(16)})}();c.send=a=>{if(l===1)a instanceof Blob?a.arrayBuffer().then(f=>{k(f)}):k(a);else if(l===0)if(typeof a==="string")q.push(a);else if(a instanceof ArrayBuffer||ArrayBuffer.isView(a))q.push(h(a));else throw Error("Sending Blob is not supported before the connection is open.");else console.debug("WebSocket send called in CLOSING or CLOSED state; ignored.")};c.close=(a=1E3,f="")=>{if(l!==2&&l!==3){l=2;a={type:"close",code:a,reason:f,wasClean:a===1E3};var g;(g=t)==null||g.postMessage(a)}};
+Promise.resolve().then(()=>p(d));return c}A(B,EventTarget);var C=document.currentScript,D=C==null?void 0:C.getAttribute("ws-interception-config");if(!D)throw Error("WebSocket Interceptor: Missing ws-interception-config attribute in the script tag.");var E=JSON.parse(D);if(!E.parentOrigin||typeof E.parentOrigin!=="string")throw Error("WebSocket Interceptor: Invalid parentOrigin in ws-interception-config");
+(function(b){var d=Object.getOwnPropertyDescriptor(window,"WebSocket");if(!d||d.writable||d.configurable)d=Object.assign(function(e,h){try{let k=(new URL(e)).hostname;if(b.proxiedDomains.some(m=>k===m||k.endsWith(`.${m}`)))return new B(e,h,b.parentOrigin)}catch(k){throw window.parent.postMessage({type:"websocket_blocked",url:e,reason:"blocked_invalid_url"},b.parentOrigin),new DOMException(`WebSocket connection to '${e}' is not allowed in Canvas.`,"SecurityError");}window.parent.postMessage({type:"websocket_blocked",
+url:e,reason:"blocked_domain_not_allowlisted"},b.parentOrigin);throw new DOMException(`WebSocket connection to '${e}' is not allowed in Canvas.`,"SecurityError");},{CONNECTING:0,OPEN:1,CLOSING:2,CLOSED:3}),Object.defineProperty(window,"WebSocket",{value:d,writable:!1,configurable:!1})})({proxiedDomains:E.proxiedDomains||[],parentOrigin:E.parentOrigin});}).call(this);
+</script><script data-bard-client-injected="true">((function(modelInformation) {
+  const originalFetch = window.fetch;
+  // TODO: b/421908508 - Move these out of the script and match all generative AI model calls.
+  let googleLlmBaseApiUrls = [
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':streamGenerateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageEditModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageTransformModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.ttsModelName + ':generateContent',
+  ];
+  modelInformation.deprecatedTextModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+    );
+  });
+  modelInformation.deprecatedImageModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predict',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predictLongRunning',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+    );
+  });
+  modelInformation.deprecatedGenerateImageModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+    );
+  });
+  modelInformation.deprecatedImageTransformModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+    );
+  });
+
+  const pendingFetchResolvers = {};
+  let nextPromiseId = 0;
+
+  function handleStringInput(input, optionsArgument) {
+    const actualUrl = input;
+    const fetchCallArgs = [actualUrl, optionsArgument];
+    const effectiveOptions = optionsArgument || {};
+    const bodyForApiKeyCheck = effectiveOptions.body;
+    const bodyForPostMessage = effectiveOptions.body;
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  function handleRequestInput(input, optionsArgument) {
+    const actualUrl = input.url;
+    const fetchCallArgs = [input, optionsArgument];
+    const effectiveOptions = { method: input.method, headers: new Headers(input.headers) };
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (optionsArgument) {
+      if (optionsArgument.method) effectiveOptions.method = optionsArgument.method;
+      if (optionsArgument.headers) effectiveOptions.headers = new Headers(optionsArgument.headers);
+      if ('body' in optionsArgument) {
+        bodyForApiKeyCheck = optionsArgument.body;
+        bodyForPostMessage = optionsArgument.body;
+      } else {
+        bodyForApiKeyCheck = undefined;
+        bodyForPostMessage = input.body;
+      }
+    } else {
+      bodyForApiKeyCheck = undefined;
+      bodyForPostMessage = input.body;
+    }
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  window.fetch = function(input, optionsArgument) {
+    let actualUrl;
+    let fetchCallArgs;
+    let effectiveOptions = {};
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (typeof input === 'string') {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleStringInput(input, optionsArgument));
+    } else if (input instanceof Request) {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleRequestInput(input, optionsArgument));
+    } else {
+      return originalFetch.apply(window, [input, optionsArgument]);
+    }
+
+    effectiveOptions.method = effectiveOptions.method || 'GET';
+    if (!effectiveOptions.headers) {
+      effectiveOptions.headers = new Headers();
+    }
+
+
+    if (typeof actualUrl === 'string' && googleLlmBaseApiUrls.some((url) => actualUrl.startsWith(url))) {
+      let apiKeyIsNull = true;
+
+      const regex = new RegExp("models/([^:]+)");
+      const modelNameMatch = actualUrl.match(regex);
+      const modelName = modelNameMatch ? modelNameMatch[1] : 'unspecified';
+
+
+      try {
+        const urlObject = new URL(actualUrl);  // Use URL object for robust parsing
+        const apiKeyParam = urlObject.searchParams.get('key');
+        if (apiKeyParam) {
+          apiKeyIsNull = false;
+        }
+      } catch (e) {
+        // Continue checks even if URL parsing fails
+      }
+
+      if (apiKeyIsNull && effectiveOptions.headers) {
+        const h = new Headers(effectiveOptions.headers);
+        const apiKeyHeaderValue = h.get('X-API-Key') || h.get('x-api-key');
+        if (apiKeyHeaderValue) {
+          apiKeyIsNull = false;
+          return originalFetch.apply(window, fetchCallArgs);
+        }
+      }
+
+      if (apiKeyIsNull && effectiveOptions.method && ['POST', 'PUT', 'PATCH'].includes(effectiveOptions.method.toUpperCase()) && typeof bodyForApiKeyCheck === 'string') {
+        try {
+          const bodyData = JSON.parse(bodyForApiKeyCheck);
+          if (bodyData && bodyData.apiKey) {
+            apiKeyIsNull = false;
+            return originalFetch.apply(window, fetchCallArgs);
+          }
+        } catch (e) {
+          // Ignore JSON parsing errors
+        }
+      }
+
+      if(apiKeyIsNull) {
+        const promiseId = nextPromiseId++;
+        const promise = new Promise((resolve) => {
+          pendingFetchResolvers[promiseId] = (resolvedResponse) => {
+            delete pendingFetchResolvers[promiseId];
+            resolve(resolvedResponse);
+          };
+        });
+
+        let serializedBodyForPostMessage;
+        if (typeof bodyForPostMessage === 'string' || bodyForPostMessage == null) {
+            serializedBodyForPostMessage = bodyForPostMessage;
+        } else if (bodyForPostMessage instanceof ReadableStream) {
+            serializedBodyForPostMessage = null;
+        } else {
+            try {
+                serializedBodyForPostMessage = JSON.stringify(bodyForPostMessage);
+            } catch (e) {
+                serializedBodyForPostMessage = null;
+            }
+        }
+
+        const messageOptions = {
+            method: effectiveOptions.method,
+            headers: Object.fromEntries(new Headers(effectiveOptions.headers).entries()),
+            body: serializedBodyForPostMessage
+        };
+
+        window.parent.postMessage({
+          type: 'requestFetch',
+          url: actualUrl,
+          modelName: modelName,
+          options: messageOptions,
+          promiseId: promiseId,
+        }, '*');
+
+        return promise;
+      }
+      return originalFetch.apply(window, fetchCallArgs);
+    }
+    return originalFetch.apply(window, fetchCallArgs);
+  };
+
+  window.addEventListener('message', function(event) {
+    if (event.data && event.data.type === 'resolveFetch') {
+      const { promiseId, response } = event.data;
+      if (pendingFetchResolvers[promiseId]) {
+        try {
+          const reconstructedResponse = new Response(response.body, {
+            status: response.status,
+            statusText: response.statusText,
+            headers: new Headers(response.headers),
+          });
+          pendingFetchResolvers[promiseId](reconstructedResponse);
+        } catch (error) {
+          pendingFetchResolvers[promiseId](new Response(null, { status: 500, statusText: "Interceptor Response Reconstruction Error" }));
+        }
+      }
+    }
+  });
+
+}))({"textModelName":"gemini-3-flash-preview","imageModelName":"imagen-4.0-generate-001","imageEditModelName":"gemini-3.1-flash-image","imageTransformModelName":"gemini-3-pro-image","videoModelName":"veo-2.0-generate-001","ttsModelName":"gemini-2.5-flash-preview-tts","deprecatedTextModelNames":["gemini-2.0-flash","gemini-2.5-flash","gemini-2.5-flash-preview-04-17","gemini-2.5-flash-preview-05-20","gemini-2.5-flash-preview-09-2025"],"deprecatedImageModelNames":["imagen-3.0-generate-001","imagen-3.0-generate-002"],"deprecatedGenerateImageModelNames":["gemini-2.5-flash-image-preview","gemini-2.5-flash-image","gemini-3.1-flash-image-preview"],"deprecatedImageTransformModelNames":["gemini-3-pro-image-preview-11-2025"]})</script><script data-bard-client-injected="true">(function() {
+  function normalizeSlug(str) {
+    try {
+      return str
+        .trim()
+        .toLowerCase()
+        .replace(/[^p{L}p{N}s_-]/gu, '')
+        .replace(/s+/g, '-');
+    } catch (e) {
+      return str
+        .trim()
+        .toLowerCase()
+        .replace(/[^a-z0-9s_-]/g, '')
+        .replace(/s+/g, '-');
+    }
+  }
+
+  function findTargetElement(hash) {
+    if (!hash || hash === '#') {
+      return null;
+    }
+    const rawId = hash.startsWith('#') ? hash.slice(1) : hash;
+    let decodedId = rawId;
+    try {
+      decodedId = decodeURIComponent(rawId);
+    } catch (e) {
+      // Ignore URI malformed errors.
+    }
+
+    // 1. Direct ID match (raw and decoded).
+    let target = document.getElementById(rawId) || document.getElementById(decodedId);
+    if (target) {
+      return target;
+    }
+
+    // 2. Name attribute match (<a name="...">).
+    try {
+      if (typeof CSS !== 'undefined' && CSS.escape) {
+        target =
+          document.querySelector('[name="' + CSS.escape(rawId) + '"]') ||
+          document.querySelector('[name="' + CSS.escape(decodedId) + '"]');
+      } else {
+        const namedElements = document.getElementsByName(rawId);
+        if (namedElements && namedElements.length > 0) {
+          return namedElements[0];
+        }
+      }
+    } catch (e) {
+      // Ignore querySelector syntax errors.
+    }
+    if (target) {
+      return target;
+    }
+
+    // 3. Match heading text by slug (for Markdown TOCs where headings lack explicit IDs).
+    const targetSlug = normalizeSlug(decodedId);
+    if (targetSlug) {
+      for (const heading of document.querySelectorAll('h1, h2, h3, h4, h5, h6')) {
+        if (normalizeSlug(heading.textContent || '') === targetSlug) {
+          return heading;
+        }
+      }
+    }
+
+    return null;
+  }
+
+  document.addEventListener('click', function(event) {
+    const target = event.target;
+    const anchor = target && typeof target.closest === 'function' ? target.closest('a') : null;
+    if (!anchor) {
+      return;
+    }
+
+    const href = anchor.getAttribute('href');
+    if (
+      !href ||
+      href.trim().toLowerCase().startsWith('javascript:') ||
+      anchor.hasAttribute('download')
+    ) {
+      return;
+    }
+
+    // Check if the link is an in-page hash / anchor link.
+    if (href.startsWith('#')) {
+      event.preventDefault();
+      const targetElement = findTargetElement(href);
+      if (targetElement) {
+        targetElement.scrollIntoView({behavior: 'smooth', block: 'start'});
+      }
+      return;
+    }
+
+    // Check if the URL has the same origin/pathname but with a hash.
+    try {
+      const url = new URL(anchor.href, window.location.href);
+      if (
+        url.hash &&
+        url.origin === window.location.origin &&
+        url.pathname === window.location.pathname
+      ) {
+        event.preventDefault();
+        const targetElement = findTargetElement(url.hash);
+        if (targetElement) {
+          targetElement.scrollIntoView({behavior: 'smooth', block: 'start'});
+        }
+        return;
+      }
+    } catch (e) {
+      // Fall through if URL parsing fails.
+    }
+
+    // For all external or full navigation links, prevent iframe-level navigation
+    // (which breaks in AGSA WebView or sandboxed iframes) and ensure they open
+    // safely in a new tab/window.
+    if (anchor.target !== '_blank') {
+      event.preventDefault();
+      window.open(anchor.href, '_blank', 'noopener,noreferrer');
+    }
+  }, {capture: true});
+})();</script><script data-bard-client-injected="true">(function(){'use strict';function a(){window.parent.postMessage({type:"interaction"},"*")}window.addEventListener("click",a,{capture:!0,passive:!0});window.addEventListener("touchstart",a,{capture:!0,passive:!0});window.addEventListener("keydown",a,{capture:!0,passive:!0});}).call(this);
+</script><script data-bard-client-injected="true">(function() {
+  const originalConsoleLog = console.log;
+  const originalConsoleError = console.error;
+
+    /**
+   * Normalizes an error event or a promise rejection reason into a structured error object.
+   * @param {*} errorEventOrReason The error object or reason.
+   * @return {object} Structured error data { message, name, stack }.
+   */
+  function getErrorObject(errorEventOrReason) {
+    if (errorEventOrReason instanceof Error) {
+      return {
+        message: errorEventOrReason.message,
+        name: errorEventOrReason.name,
+        stack: errorEventOrReason.stack,
+      };
+    }
+    // Fallback for non-Error objects.
+    try {
+      return {
+        message: JSON.stringify(errorEventOrReason),
+        name: 'UnknownErrorType',
+        stack: null,
+      };
+    } catch (e) {
+      return {
+        message: String(errorEventOrReason),
+        name: 'UnknownErrorTypeNonStringifiable',
+        stack: null,
+      };
+    }
+  }
+
+  /**
+   * Converts an array of arguments (from log/error) into a single string.
+   * Handles Error objects specially to include their message and stack.
+   * @param {Array<*>} args - Arguments passed to console methods.
+   * @return {string} A string representation of the arguments.
+   */
+  function stringifyArgs(args) {
+    return args
+      .map((arg) => {
+        if (arg instanceof Error) {
+          const {message, stack} = arg;
+          return `Error: ${message}${stack ? ('\nStack: ' + stack) : ''}`;
+        }
+        if (typeof arg === 'object' && arg !== null) {
+          try {
+            return JSON.stringify(arg);
+          } catch (error) {
+            return '[Circular Object]';
+          }
+        } else {
+          return String(arg);
+        }
+      })
+      .join(' ');
+  }
+
+  console.log = function(...args) {
+    const logString = stringifyArgs(args);
+    window.parent.postMessage({ type: 'log', message: logString }, '*');
+    originalConsoleLog.apply(console, args);
+  };
+
+  console.error = function(...args) {
+    let errorData;
+    if (args.length > 0 && args[0] instanceof Error) {
+      const err = args[0];
+      // If the first arg is an Error, capture its details.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        ...getErrorObject(err),
+        rawArgsString: stringifyArgs(args.slice(1)),
+        timestamp: new Date().toISOString(),
+      };
+    } else {
+      // If not an Error object, treat all args as a general error message.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        message: stringifyArgs(args),
+        name: 'ConsoleLoggedError',
+        stack: null,
+        timestamp: new Date().toISOString(),
+      };
+    }
+    window.parent.postMessage(errorData, '*');
+    originalConsoleError.apply(console, args);
+  };
+
+  // Listen for global unhandled synchronous errors.
+  window.addEventListener('error', function(event) {
+    const errorDetails = event.error ? getErrorObject(event.error) : {
+      message: event.message,
+      name: 'GlobalError',
+      stack: null,
+      filename: event.filename,
+      lineno: event.lineno,
+      colno: event.colno,
+    };
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'global',
+      ...errorDetails,
+      message: errorDetails.message || event.message,
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+  // Listen for unhandled promise rejections (asynchronous errors).
+  window.addEventListener('unhandledrejection', function(event) {
+    const errorDetails = getErrorObject(event.reason);
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'unhandledrejection',
+      ...errorDetails,
+      message: errorDetails.message || 'Unhandled Promise Rejection',
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+})();</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>من سيربح المليون؟ - معاني سورة الروم (نسخة تعمل بدون إنترنت)</title>
+  
+  <style>
+    /* CSS Reset & Offline Typography */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, 'Simplified Arabic', -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+      background: radial-gradient(circle at 50% 25%, #0e1e4a 0%, #060b1b 100%);
+      color: #ffffff;
+      min-height: 100vh;
+      overflow-x: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 12px;
+      line-height: 1.5;
+    }
+
+    .quran-font {
+      font-family: 'Traditional Arabic', 'Amiri', 'Times New Roman', serif;
+      font-size: 1.55rem;
+      letter-spacing: 0.5px;
+    }
+
+    /* Container Utility */
+    .container {
+      width: 100%;
+      max-width: 1150px;
+      margin: 0 auto;
+    }
+
+    /* Glassmorphism & Borders */
+    .glass-card {
+      background: rgba(15, 26, 61, 0.85);
+      border: 1px solid rgba(59, 130, 246, 0.35);
+      border-radius: 18px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Header Styling */
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 12px 18px;
+      margin-bottom: 16px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-icon {
+      width: 48px;
+      height: 48px;
+      background: linear-gradient(135deg, #f59e0b, #eab308, #b45309);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      border: 2px solid #fef08a;
+      box-shadow: 0 0 15px rgba(245, 158, 11, 0.4);
+    }
+
+    .brand h1 {
+      font-size: 1.25rem;
+      font-weight: 900;
+      color: #fef08a;
+      text-shadow: 0 0 10px rgba(234, 179, 8, 0.5);
+    }
+
+    .brand p {
+      font-size: 0.82rem;
+      color: #93c5fd;
+      font-weight: bold;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    /* Buttons Generic */
+    .btn {
+      padding: 8px 14px;
+      border-radius: 12px;
+      font-size: 0.82rem;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+      color: #fff;
+    }
+
+    .btn-primary {
+      background: linear-gradient(180deg, #2563eb 0%, #1d4ed8 100%);
+      border: 1px solid #60a5fa;
+    }
+    .btn-primary:hover {
+      filter: brightness(1.15);
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      background: #1e293b;
+      border: 1px solid #475569;
+      color: #cbd5e1;
+    }
+    .btn-secondary:hover {
+      background: #334155;
+    }
+
+    .btn-gold {
+      background: linear-gradient(180deg, #d97706 0%, #b45309 100%);
+      border: 1px solid #fef08a;
+      color: #ffffff;
+    }
+    .btn-gold:hover {
+      box-shadow: 0 0 12px rgba(245, 158, 11, 0.6);
+    }
+
+    .btn-icon {
+      width: 40px;
+      height: 40px;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+    }
+
+    /* Layout Grid */
+    .main-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+      align-items: start;
+    }
+
+    @media (min-width: 992px) {
+      .main-grid {
+        grid-template-columns: 8fr 4fr;
+      }
+    }
+
+    /* Lifelines Bar */
+    .lifelines-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 10px 16px;
+      margin-bottom: 14px;
+    }
+
+    .lifelines-label {
+      font-size: 0.85rem;
+      font-weight: 800;
+      color: #fde047;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .lifelines-list {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .lifeline-btn {
+      position: relative;
+      background: linear-gradient(180deg, #1e3a8a 0%, #0f172a 100%);
+      border: 1px solid #3b82f6;
+      border-radius: 12px;
+      padding: 7px 14px;
+      font-size: 0.8rem;
+      font-weight: 800;
+      color: #bfdbfe;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+    }
+    .lifeline-btn:hover:not(:disabled) {
+      border-color: #f59e0b;
+      color: #ffffff;
+      box-shadow: 0 0 10px rgba(245, 158, 11, 0.4);
+    }
+    .lifeline-btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+      border-color: #475569;
+    }
+
+    .lifeline-pill {
+      font-size: 9px;
+      background: #059669;
+      color: #fff;
+      padding: 1px 6px;
+      border-radius: 999px;
+      position: absolute;
+      top: -6px;
+      right: -4px;
+    }
+    .lifeline-btn:disabled .lifeline-pill {
+      background: #475569;
+    }
+
+    /* Stage Question Arena */
+    .stage-card {
+      padding: 20px;
+      border: 2px solid rgba(59, 130, 246, 0.45);
+      position: relative;
+      background: linear-gradient(180deg, #0f1a3d 0%, #090e24 100%);
+    }
+
+    .question-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid rgba(59, 130, 246, 0.2);
+      padding-bottom: 10px;
+      margin-bottom: 14px;
+      font-size: 0.82rem;
+    }
+
+    .badge {
+      padding: 4px 10px;
+      border-radius: 8px;
+      font-weight: 800;
+      display: inline-block;
+    }
+    .badge-qnum {
+      background: #1e3a8a;
+      color: #bfdbfe;
+      border: 1px solid #3b82f6;
+    }
+    .badge-diff {
+      background: rgba(180, 83, 9, 0.35);
+      color: #fef08a;
+      border: 1px solid rgba(245, 158, 11, 0.4);
+      margin-right: 6px;
+    }
+
+    .verse-box {
+      background: rgba(16, 37, 89, 0.5);
+      border: 1px solid rgba(245, 158, 11, 0.35);
+      border-radius: 14px;
+      padding: 14px;
+      text-align: center;
+      margin-bottom: 16px;
+      box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.3);
+    }
+    .verse-box span {
+      display: block;
+      font-size: 0.72rem;
+      color: #f59e0b;
+      font-weight: 800;
+      margin-bottom: 4px;
+    }
+    .verse-box p {
+      color: #fef9c3;
+      line-height: 1.7;
+    }
+
+    .prompt-box {
+      text-align: center;
+      margin-bottom: 18px;
+    }
+    .prompt-box h2 {
+      font-size: 1.15rem;
+      font-weight: 900;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    /* Answers Grid */
+    .answers-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+    @media (min-width: 640px) {
+      .answers-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .answer-btn {
+      position: relative;
+      background: linear-gradient(180deg, #112352 0%, #0a1435 100%);
+      border: 2px solid #2563eb;
+      border-radius: 14px;
+      padding: 12px 14px;
+      text-align: right;
+      color: #f1f5f9;
+      font-size: 0.95rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      transition: all 0.2s ease;
+      min-height: 58px;
+    }
+    .answer-btn:hover:not(:disabled) {
+      border-color: #f59e0b;
+      box-shadow: 0 0 14px rgba(245, 158, 11, 0.4);
+      transform: translateY(-2px);
+    }
+    .answer-btn.selected {
+      background: linear-gradient(180deg, #d97706 0%, #92400e 100%) !important;
+      border-color: #fef08a !important;
+      box-shadow: 0 0 20px rgba(245, 158, 11, 0.8) !important;
+      animation: pulseBtn 1s infinite alternate;
+    }
+    .answer-btn.correct {
+      background: linear-gradient(180deg, #059669 0%, #065f46 100%) !important;
+      border-color: #6ee7b7 !important;
+      box-shadow: 0 0 25px rgba(16, 185, 129, 0.9) !important;
+    }
+    .answer-btn.wrong {
+      background: linear-gradient(180deg, #dc2626 0%, #991b1b 100%) !important;
+      border-color: #fca5a5 !important;
+      box-shadow: 0 0 20px rgba(239, 68, 68, 0.8) !important;
+    }
+
+    @keyframes pulseBtn {
+      from { transform: scale(1); }
+      to { transform: scale(1.02); }
+    }
+
+    .answer-letter {
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      background: rgba(245, 158, 11, 0.2);
+      border: 1px solid rgba(245, 158, 11, 0.4);
+      color: #fef08a;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      flex-shrink: 0;
+    }
+
+    /* Stage Footer Action */
+    .stage-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+      padding-top: 14px;
+      border-top: 1px solid rgba(59, 130, 246, 0.2);
+    }
+
+    .confirm-btn {
+      padding: 10px 24px;
+      border-radius: 12px;
+      font-weight: 900;
+      font-size: 0.92rem;
+      border: none;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .confirm-btn:disabled {
+      background: #1e293b;
+      color: #64748b;
+      border: 1px solid #334155;
+      cursor: not-allowed;
+    }
+    .confirm-btn.active {
+      background: linear-gradient(180deg, #f59e0b 0%, #d97706 100%);
+      color: #050b1d;
+      box-shadow: 0 0 16px rgba(245, 158, 11, 0.7);
+      border: 1px solid #fef08a;
+      cursor: pointer;
+    }
+
+    /* Prize Ladder */
+    .ladder-card {
+      padding: 16px;
+    }
+    .ladder-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid rgba(59, 130, 246, 0.2);
+      padding-bottom: 8px;
+      margin-bottom: 12px;
+    }
+    .ladder-list {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+    .ladder-step {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 6px 12px;
+      border-radius: 10px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      transition: all 0.2s;
+      background: rgba(30, 41, 59, 0.4);
+      color: #94a3b8;
+    }
+    .ladder-step.current {
+      background: linear-gradient(90deg, #d97706 0%, #b45309 100%);
+      color: #ffffff;
+      border: 1.5px solid #fde047;
+      font-weight: 900;
+      transform: scale(1.02);
+      box-shadow: 0 0 14px rgba(234, 179, 8, 0.6);
+    }
+    .ladder-step.past {
+      color: #34d399;
+      opacity: 0.8;
+    }
+    .ladder-step.safe {
+      background: linear-gradient(90deg, #065f46 0%, #047857 100%);
+      color: #fef08a;
+      border: 1px solid #10b981;
+    }
+
+    /* Modals & Overlays */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(3, 7, 18, 0.85);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      z-index: 1000;
+    }
+    .modal-overlay.hidden {
+      display: none;
+    }
+    .modal-box {
+      background: #0f172a;
+      border: 2px solid #3b82f6;
+      border-radius: 20px;
+      width: 100%;
+      max-width: 500px;
+      padding: 22px;
+      text-align: center;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.8);
+      position: relative;
+    }
+    .modal-icon {
+      font-size: 44px;
+      margin-bottom: 8px;
+    }
+
+    /* Audience Poll Bars */
+    .poll-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 8px;
+      font-size: 0.85rem;
+      font-weight: 800;
+    }
+    .poll-bar-bg {
+      flex: 1;
+      height: 20px;
+      background: #1e293b;
+      border-radius: 999px;
+      overflow: hidden;
+      border: 1px solid #334155;
+    }
+    .poll-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #2563eb, #38bdf8);
+      border-radius: 999px;
+      transition: width 0.8s ease-out;
+      width: 0%;
+    }
+
+    /* Teacher View Styles */
+    .teacher-view {
+      padding: 24px;
+      margin-top: 10px;
+    }
+    .teacher-view.hidden {
+      display: none;
+    }
+    .table-container {
+      overflow-x: auto;
+      margin-top: 14px;
+      border-radius: 12px;
+      border: 1px solid #334155;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.82rem;
+      text-align: right;
+    }
+    th, td {
+      padding: 10px 14px;
+      border-bottom: 1px solid #1e293b;
+    }
+    th {
+      background: #1e3a8a;
+      color: #fef08a;
+    }
+    tr:nth-child(even) {
+      background: rgba(30, 41, 59, 0.3);
+    }
+
+    /* Canvas for Offline Fireworks */
+    #confettiCanvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 9999;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Canvas for Local Fireworks (No external library required) -->
+  <canvas id="confettiCanvas" width="398" height="720"></canvas>
+
+  <header class="container glass-card">
+    <div class="brand">
+      <div class="brand-icon">💰</div>
+      <div>
+        <h1>من سيربح المليون؟ (نسخة أوفلاين)</h1>
+        <p>معاني كلمات سورة الروم • المعجم الوسيط • الثاني عشر (لغة عربية)</p>
+      </div>
+    </div>
+
+    <div class="header-actions">
+      <!-- Download / Save HTML File to Flash Memory -->
+      <button onclick="downloadSelfFile()" class="btn btn-gold" title="حفظ نسخة كاملة على الفلاش">
+        <span>💾</span> <span>حفظ على الفلاش</span>
+      </button>
+
+      <!-- View Switcher -->
+      <button id="navGameBtn" onclick="switchView('game')" class="btn btn-primary">
+        <span>🎮 منصة اللعب</span>
+      </button>
+      <button id="navTeacherBtn" onclick="switchView('teacher')" class="btn btn-secondary">
+        <span>📋 دليل المعلم والحلول</span>
+      </button>
+
+      <!-- Audio Mute/Unmute -->
+      <button id="audioToggleBtn" onclick="toggleAudio()" class="btn btn-secondary btn-icon" title="كتم / تشغيل الصوت">
+        🔊
+      </button>
+    </div>
+  </header>
+
+  <main id="gameView" class="container main-grid">
+    
+    <!-- Right Area: Game Stage & Lifelines -->
+    <div>
+      <!-- Lifelines Panel -->
+      <div class="glass-card lifelines-bar">
+        <div class="lifelines-label">
+          <span>⚡</span> وسائل المساعدة المتاحة:
+        </div>
+        <div class="lifelines-list">
+          <button id="lifeline5050" onclick="useLifeline5050()" class="lifeline-btn" title="حذف خيارين خاطئين">
+            <span>✂️</span> <span>حذف إجابتين</span>
+            <span class="lifeline-pill">متاح</span>
+          </button>
+          <button id="lifelineAudience" onclick="useLifelineAudience()" class="lifeline-btn" title="استطلاع رأي الطلاب">
+            <span>👥</span> <span>سؤال الجمهور</span>
+            <span class="lifeline-pill">متاح</span>
+          </button>
+          <button id="lifelineHint" onclick="useLifelineHint()" class="lifeline-btn" title="توجيه استدلالي">
+            <span>💡</span> <span>تلميح المعلمة</span>
+            <span class="lifeline-pill">متاح</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Question Box Stage -->
+      <div class="glass-card stage-card">
+        
+        <!-- Meta Details -->
+        <div class="question-header">
+          <div>
+            <span id="questionBadge" class="badge badge-qnum">السؤال 1 من 10</span>
+            <span id="diffBadge" class="badge badge-diff">سهل جداً</span>
+          </div>
+          <div>
+            <span style="color: #94a3b8;">قيمة السؤال: </span>
+            <strong id="prizeAmountBadge" style="color: #fde047; font-size: 1rem;">1,000 د.ك</strong>
+          </div>
+        </div>
+
+        <!-- Ayah Quote Box -->
+        <div class="verse-box">
+          <span>﴿ الشاهد القرآني من سورة الروم ﴾</span>
+          <p id="verseQuote" class="quran-font">﴿فَهُمْ فِي رَوْضَةٍ يُحْبَرُونَ﴾</p>
+        </div>
+
+        <!-- Question Prompt -->
+        <div class="prompt-box">
+          <h2 id="questionPrompt">ما المعنى المعتمد لكلمة (يُحْبَرُونَ) في قوله تعالى كما جاء في المعجم الوسيط؟</h2>
+        </div>
+
+        <!-- 4 Option Buttons -->
+        <div class="answers-grid">
+          <button id="optBtn0" onclick="selectOption(0)" class="answer-btn" style="visibility: visible;">
+            <span class="answer-letter">أ</span>
+            <span id="optText0" style="flex:1;">يسعدون ويُنَعَّمون بأرقى النعيم</span>
+          </button>
+          <button id="optBtn1" onclick="selectOption(1)" class="answer-btn" style="visibility: visible;">
+            <span class="answer-letter">ب</span>
+            <span id="optText1" style="flex:1;">يكتبون بأقلام الحِبْر ويسجلون</span>
+          </button>
+          <button id="optBtn2" onclick="selectOption(2)" class="answer-btn" style="visibility: visible;">
+            <span class="answer-letter">ج</span>
+            <span id="optText2" style="flex:1;">يحبسون في مكان واسع</span>
+          </button>
+          <button id="optBtn3" onclick="selectOption(3)" class="answer-btn" style="visibility: visible;">
+            <span class="answer-letter">د</span>
+            <span id="optText3" style="flex:1;">يتعجبون ويُدهشون من المنظر</span>
+          </button>
+        </div>
+
+        <!-- Bottom Action Bar -->
+        <div class="stage-footer">
+          <div style="font-size: 0.8rem; color: #93c5fd; display: flex; align-items: center; gap: 6px;">
+            <span>🛡️</span>
+            <span>نقطة الأمان المحفوظة: <strong style="color: #34d399;">السؤال الخامس (50,000 د.ك)</strong></span>
+          </div>
+
+          <button id="confirmBtn" onclick="confirmSelection()" disabled="" class="confirm-btn">ثبّت الإجابة النهائية 🔒</button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Left Area: Prize Ladder & Safety Net -->
+    <aside class="glass-card ladder-card">
+      <div class="ladder-header">
+        <div style="font-weight: 900; color: #fef08a; font-size: 0.95rem; display: flex; align-items: center; gap: 6px;">
+          <span>🏆</span> سلم الجوائز والدرجات
+        </div>
+        <span style="font-size: 0.75rem; background: #1e3a8a; padding: 2px 8px; border-radius: 6px; color: #bfdbfe;">
+          10 محطات
+        </span>
+      </div>
+
+      <!-- Ladder Steps list rendered via JS -->
+      <div id="ladderList" class="ladder-list"><div class="ladder-step safe">
+          <div style="display:flex; align-items:center; gap:6px;">
+            <span style="width:20px; text-align:center;">10</span>
+            <span><span style="font-size:10px; padding:1px 5px; background:rgba(0,0,0,0.3); border-radius:4px; margin-right:4px;">المليون 🏆</span></span>
+          </div>
+          <span>1,000,000 د.ك</span>
+        </div><div class="ladder-step ">
+          <div style="display:flex; align-items:center; gap:6px;">
+            <span style="width:20px; text-align:center;">9</span>
+            <span></span>
+          </div>
+          <span>700,000 د.ك</span>
+        </div><div class="ladder-step ">
+          <div style="display:flex; align-items:center; gap:6px;">
+            <span style="width:20px; text-align:center;">8</span>
+            <span></span>
+          </div>
+          <span>400,000 د.ك</span>
+        </div><div class="ladder-step ">
+          <div style="display:flex; align-items:center; gap:6px;">
+            <span style="width:20px; text-align:center;">7</span>
+            <span></span>
+          </div>
+          <span>200,000 د.ك</span>
+        </div><div class="ladder-step ">
+          <div style="display:flex; align-items:center; gap:6px;">
+            <span style="width:20px; text-align:center;">6</span>
+            <span></span>
+          </div>
+          <span>100,000 د.ك</span>
+        </div><div class="ladder-step safe">
+          <div style="display:flex; align-items:center; gap:6px;">
+            <span style="width:20px; text-align:center;">5</span>
+            <span><span style="font-size:10px; padding:1px 5px; background:rgba(0,0,0,0.3); border-radius:4px; margin-right:4px;">محطة أمان 🛡️</span></span>
+          </div>
+          <span>50,000 د.ك</span>
+        </div><div class="ladder-step ">
+          <div style="display:flex; align-items:center; gap:6px;">
+            <span style="width:20px; text-align:center;">4</span>
+            <span></span>
+          </div>
+          <span>20,000 د.ك</span>
+        </div><div class="ladder-step ">
+          <div style="display:flex; align-items:center; gap:6px;">
+            <span style="width:20px; text-align:center;">3</span>
+            <span></span>
+          </div>
+          <span>10,000 د.ك</span>
+        </div><div class="ladder-step ">
+          <div style="display:flex; align-items:center; gap:6px;">
+            <span style="width:20px; text-align:center;">2</span>
+            <span></span>
+          </div>
+          <span>5,000 د.ك</span>
+        </div><div class="ladder-step current">
+          <div style="display:flex; align-items:center; gap:6px;">
+            <span style="width:20px; text-align:center;">👉</span>
+            <span></span>
+          </div>
+          <span>1,000 د.ك</span>
+        </div></div>
+
+      <div style="margin-top: 14px; padding: 12px; background: rgba(15, 23, 42, 0.6); border-radius: 12px; border: 1px solid #334155; font-size: 0.78rem;">
+        <div style="display: flex; justify-content: space-between; margin-bottom: 6px;">
+          <span style="color: #94a3b8;">الرصيد المضمون:</span>
+          <strong id="safeGuaranteedText" style="color: #34d399;">0 د.ك (قبل الأمان)</strong>
+        </div>
+        <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+          <span style="color: #94a3b8;">المرجع المقرّر:</span>
+          <strong style="color: #fde047;">المعجم الوسيط 📖</strong>
+        </div>
+        <button onclick="restartGame()" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+          <span>🔄</span> إعادة بدء الجولة
+        </button>
+      </div>
+    </aside>
+
+  </main>
+
+  <section id="teacherView" class="container glass-card teacher-view hidden">
+    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; border-bottom: 1px solid #334155; padding-bottom: 14px; margin-bottom: 16px;">
+      <div>
+        <span style="background: rgba(245, 158, 11, 0.2); color: #fde047; padding: 2px 8px; border-radius: 6px; font-size: 0.75rem; font-weight: 800;">وثيقة المعلم الإثرائية</span>
+        <h2 style="font-size: 1.4rem; font-weight: 900; color: #ffffff; margin-top: 4px;">نموذج الإجابة المعتمد والتحليل المعجمي</h2>
+        <p style="font-size: 0.8rem; color: #94a3b8;">الصف الثاني عشر • مادة اللغة العربية • درس معاني كلمات سورة الروم</p>
+      </div>
+
+      <button onclick="window.print()" class="btn btn-primary">
+        <span>🖨️ طباعة النموذج</span>
+      </button>
+    </div>
+
+    <!-- Instructions For Teachers -->
+    <div style="background: rgba(30, 41, 59, 0.5); padding: 14px; border-radius: 12px; border: 1px solid #475569; margin-bottom: 16px; font-size: 0.85rem; line-height: 1.6;">
+      <h3 style="color: #fef08a; font-weight: 800; margin-bottom: 6px;">💡 توجيهات الاستخدام دون اتصال بالإنترنت (Offline Mode):</h3>
+      <p style="color: #cbd5e1;">
+        • هذا الملف مبرمج ذاتياً ولا يحتاج إلى إنترنت؛ يمكنك نسخه على فلاش USB ونقله لأي شاشة تفاعلية في المدرسة أو جهاز الحاسوب.<br>
+        • نقطة الأمان تم وضعها في <strong>السؤال الخامس (50,000)</strong> تشجيعاً للمتعلم على مواصلة التحدي اللغوي حتى المليون دون خوف من فقدان إنجازه.<br>
+        • يفضل استثمار وسيلة <strong>(سؤال الجمهور)</strong> عبر التصويت الفعلي لطلاب الفصل، ووسيلة <strong>(تلميح المعلمة)</strong> لتعزيز مهارات البحث في المعاجم.
+      </p>
+    </div>
+
+    <!-- Questions Table -->
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th style="width: 40px; text-align: center;">#</th>
+            <th>الكلمة والشاهد القرآني</th>
+            <th>الإجابة الصحيحة</th>
+            <th>الشرح والدلالة من المعجم الوسيط</th>
+            <th>الدرجة والمستوى</th>
+          </tr>
+        </thead>
+        <tbody id="teacherTableBody">
+          <tr>
+            <td style="text-align:center; font-weight:bold; color:#94a3b8;">1</td>
+            <td>
+              <div style="font-weight:bold; color:#fde047;">يُحْبَرُونَ</div>
+              <div class="quran-font" style="font-size:1rem; color:#cbd5e1; margin-top:2px;">﴿فَهُمْ فِي رَوْضَةٍ يُحْبَرُونَ﴾</div>
+            </td>
+            <td style="color:#34d399; font-weight:800;">
+              (أ) يسعدون ويُنَعَّمون بأرقى النعيم
+            </td>
+            <td style="color:#cbd5e1; font-size:0.8rem; line-height:1.5;">
+              في المعجم الوسيط: حَبَرَهُ حَبْراً: سَرَّهُ وفَرَّحَهُ ونَعَّمَهُ، فـ (يُحْبَرُونَ) تعني: يُسعدون ويُنعمون إكراماً لهم.
+            </td>
+            <td style="color:#fef08a; font-weight:bold; white-space:nowrap;">
+              1,000 د.ك 
+            </td>
+          </tr>
+        
+          <tr>
+            <td style="text-align:center; font-weight:bold; color:#94a3b8;">2</td>
+            <td>
+              <div style="font-weight:bold; color:#fde047;">أَلْسِنَتِكُمْ</div>
+              <div class="quran-font" style="font-size:1rem; color:#cbd5e1; margin-top:2px;">﴿وَمِنْ آيَاتِهِ خَلْقُ السَّمَاوَاتِ وَالْأَرْضِ وَاخْتِلَافُ أَلْسِنَتِكُمْ وَأَلْوَانِكُمْ﴾</div>
+            </td>
+            <td style="color:#34d399; font-weight:800;">
+              (ب) لغاتكم ولهجاتكم المنطوقة بين الشعوب
+            </td>
+            <td style="color:#cbd5e1; font-size:0.8rem; line-height:1.5;">
+              جاء في المعجم وكتب التفسير المعتمدة: اختلاف ألسنتكم أي لغاتكم ولهجاتكم التي تعبرون بها وتتفاهمون من خلالها.
+            </td>
+            <td style="color:#fef08a; font-weight:bold; white-space:nowrap;">
+              5,000 د.ك 
+            </td>
+          </tr>
+        
+          <tr>
+            <td style="text-align:center; font-weight:bold; color:#94a3b8;">3</td>
+            <td>
+              <div style="font-weight:bold; color:#fde047;">آيَاتِهِ</div>
+              <div class="quran-font" style="font-size:1rem; color:#cbd5e1; margin-top:2px;">﴿وَمِنْ آيَاتِهِ أَنْ خَلَقَكُم مِّن تُرَابٍ ثُمَّ إِذَا أَنتُم بَشَرٌ تَنتَشِرُونَ﴾</div>
+            </td>
+            <td style="color:#34d399; font-weight:800;">
+              (ج) دلائله وبراهينه وعلامات قدرته
+            </td>
+            <td style="color:#cbd5e1; font-size:0.8rem; line-height:1.5;">
+              الآيات في المعجم الوسيط جمع آية، وهي: العلامة والأمارة، والمراد هنا: دلائله وعلامات قدرته ووحدانيته الباهرة.
+            </td>
+            <td style="color:#fef08a; font-weight:bold; white-space:nowrap;">
+              10,000 د.ك 
+            </td>
+          </tr>
+        
+          <tr>
+            <td style="text-align:center; font-weight:bold; color:#94a3b8;">4</td>
+            <td>
+              <div style="font-weight:bold; color:#fde047;">وَابْتِغَاؤُكُم</div>
+              <div class="quran-font" style="font-size:1rem; color:#cbd5e1; margin-top:2px;">﴿وَمِنْ آيَاتِهِ مَنَامُكُم بِاللَّيْلِ وَالنَّهَارِ وَابْتِغَاؤُكُم مِّن فَضْلِهِ﴾</div>
+            </td>
+            <td style="color:#34d399; font-weight:800;">
+              (ب) طلبكم وسعيكم في تحصيل الرزق والمعاش
+            </td>
+            <td style="color:#cbd5e1; font-size:0.8rem; line-height:1.5;">
+              ابْتَغَى الشيءَ: طَلَبَهُ ورَغِبَ فيه. و(ابتغاؤكم من فضله) أي: طلبكم لرزق الله بالسعي والعمل.
+            </td>
+            <td style="color:#fef08a; font-weight:bold; white-space:nowrap;">
+              20,000 د.ك 
+            </td>
+          </tr>
+        
+          <tr>
+            <td style="text-align:center; font-weight:bold; color:#94a3b8;">5</td>
+            <td>
+              <div style="font-weight:bold; color:#fde047;">طَمَعًا</div>
+              <div class="quran-font" style="font-size:1rem; color:#cbd5e1; margin-top:2px;">﴿وَمِنْ آيَاتِهِ يُرِيكُمُ الْبَرْقَ خَوْفًا وَطَمَعًا وَيُنَزِّلُ مِنَ السَّمَاءِ مَاءً﴾</div>
+            </td>
+            <td style="color:#34d399; font-weight:800;">
+              (أ) طلب ورجاء في نزول الغيث والخير والرحمة
+            </td>
+            <td style="color:#cbd5e1; font-size:0.8rem; line-height:1.5;">
+              في المعجم الوسيط: الطَّمَعُ هو الأمل والحرص ورجاء الحصول على الشيء، وهنا: طلباً ورجاءً في غيث السماء وبركتها.
+            </td>
+            <td style="color:#fef08a; font-weight:bold; white-space:nowrap;">
+              50,000 د.ك <span style="background:#065f46; color:#a7f3d0; padding:2px 6px; border-radius:4px; font-size:10px; margin-right:4px;">نقطة أمان</span>
+            </td>
+          </tr>
+        
+          <tr>
+            <td style="text-align:center; font-weight:bold; color:#94a3b8;">6</td>
+            <td>
+              <div style="font-weight:bold; color:#fde047;">قَانِتُونَ</div>
+              <div class="quran-font" style="font-size:1rem; color:#cbd5e1; margin-top:2px;">﴿وَلَهُ مَن فِي السَّمَاوَاتِ وَالْأَرْضِ كُلٌّ لَّهُ قَانِتُونَ﴾</div>
+            </td>
+            <td style="color:#34d399; font-weight:800;">
+              (ج) خاضعون ومنقادون لعظمته وقضائه
+            </td>
+            <td style="color:#cbd5e1; font-size:0.8rem; line-height:1.5;">
+              في المعجم الوسيط: قَنَتَ لله: خَضَعَ وأَطَاعَ وأَقَرَّ بالعبودية، و(قانتون) أي: خاضعون منقادون ومستسلمون لجلاله.
+            </td>
+            <td style="color:#fef08a; font-weight:bold; white-space:nowrap;">
+              100,000 د.ك 
+            </td>
+          </tr>
+        
+          <tr>
+            <td style="text-align:center; font-weight:bold; color:#94a3b8;">7</td>
+            <td>
+              <div style="font-weight:bold; color:#fde047;">أَهْوَنُ</div>
+              <div class="quran-font" style="font-size:1rem; color:#cbd5e1; margin-top:2px;">﴿وَهُوَ الَّذِي يَبْدَأُ الْخَلْقَ ثُمَّ يُعِيدُهُ وَهُوَ أَهْوَنُ عَلَيْهِ﴾</div>
+            </td>
+            <td style="color:#34d399; font-weight:800;">
+              (ب) أسهل وأيسر (بمقاييس عقول البشر، وإلا فكل شيء على الله هيّن)
+            </td>
+            <td style="color:#cbd5e1; font-size:0.8rem; line-height:1.5;">
+              أَهْوَنُ: أسهل وأيسر. قال المعجم الوسيط: هانَ الشيءُ: سَهُلَ وتَيَسَّرَ. والآية ضرب مثل للناس، وإلا فإن قدرة الله لا يعجزها شيء.
+            </td>
+            <td style="color:#fef08a; font-weight:bold; white-space:nowrap;">
+              200,000 د.ك 
+            </td>
+          </tr>
+        
+          <tr>
+            <td style="text-align:center; font-weight:bold; color:#94a3b8;">8</td>
+            <td>
+              <div style="font-weight:bold; color:#fde047;">الجذر اللغوي والاشتقاق</div>
+              <div class="quran-font" style="font-size:1rem; color:#cbd5e1; margin-top:2px;">﴿فَأَمَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ فَهُمْ فِي رَوْضَةٍ يُحْبَرُونَ﴾</div>
+            </td>
+            <td style="color:#34d399; font-weight:800;">
+              (أ) جذر (ح - ب - ر) وأصله: التزيين والتحسين وإدخال السرور الكامل
+            </td>
+            <td style="color:#cbd5e1; font-size:0.8rem; line-height:1.5;">
+              الجذر (ح ب ر)، ومنه الحَبْر وهو الأثر الحسن والزينة، وحَبَّرَ الشيءَ: حسّنه وزيّنه، والحَبْرَة هي النعمة وسرور القلب وبهجته.
+            </td>
+            <td style="color:#fef08a; font-weight:bold; white-space:nowrap;">
+              400,000 د.ك 
+            </td>
+          </tr>
+        
+          <tr>
+            <td style="text-align:center; font-weight:bold; color:#94a3b8;">9</td>
+            <td>
+              <div style="font-weight:bold; color:#fde047;">خَوْفًا وَطَمَعًا</div>
+              <div class="quran-font" style="font-size:1rem; color:#cbd5e1; margin-top:2px;">﴿يُرِيكُمُ الْبَرْقَ خَوْفًا وَطَمَعًا﴾</div>
+            </td>
+            <td style="color:#34d399; font-weight:800;">
+              (ب) طباق يبرز شمول قدرة الله والجمع بين رجاء الخير والحذر من الخطر
+            </td>
+            <td style="color:#cbd5e1; font-size:0.8rem; line-height:1.5;">
+              بينهما (طباق إيجاب)، فالخوف من الصواعق والأذى يقابله الطمع والرجاء في الغيث والنماء، والضد يظهر حسنه الضد.
+            </td>
+            <td style="color:#fef08a; font-weight:bold; white-space:nowrap;">
+              700,000 د.ك 
+            </td>
+          </tr>
+        
+          <tr>
+            <td style="text-align:center; font-weight:bold; color:#94a3b8;">10</td>
+            <td>
+              <div style="font-weight:bold; color:#fde047;">القنوت الدلالي</div>
+              <div class="quran-font" style="font-size:1rem; color:#cbd5e1; margin-top:2px;">﴿وَلَهُ مَن فِي السَّمَاوَاتِ وَالْأَرْضِ كُلٌّ لَّهُ قَانِتُونَ﴾</div>
+            </td>
+            <td style="color:#34d399; font-weight:800;">
+              (أ) القنوت هنا هو الخضوع الكوني التام والانقياد التام الشامل لجلال قدرته طوعاً وكرهاً
+            </td>
+            <td style="color:#cbd5e1; font-size:0.8rem; line-height:1.5;">
+              في سورة الروم القنوت دلالته كونية مطلقة، أي أن جميع المخلوقات خاضعة لسنته وتدبيره ومشيئته التكوينية التامة دون استثناء.
+            </td>
+            <td style="color:#fef08a; font-weight:bold; white-space:nowrap;">
+              1,000,000 د.ك 
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 1. Audience Lifeline Modal -->
+  <div id="audienceModal" class="modal-overlay hidden">
+    <div class="modal-box" style="border-color: #f59e0b;">
+      <div class="modal-icon">👥</div>
+      <h3 style="color: #fef08a; font-weight: 900; margin-bottom: 6px; font-size: 1.15rem;">استطلاع آراء الجمهور</h3>
+      <p style="font-size: 0.8rem; color: #94a3b8; margin-bottom: 16px;">جاءت نسب تصويت الصف وخبراء اللغة كالآتي:</p>
+
+      <div style="margin-bottom: 18px;">
+        <div class="poll-row">
+          <span style="width: 24px; color: #fde047;">أ</span>
+          <div class="poll-bar-bg"><div id="pBar0" class="poll-bar-fill"></div></div>
+          <span id="pVal0" style="width: 40px; text-align: left;">0%</span>
+        </div>
+        <div class="poll-row">
+          <span style="width: 24px; color: #fde047;">ب</span>
+          <div class="poll-bar-bg"><div id="pBar1" class="poll-bar-fill"></div></div>
+          <span id="pVal1" style="width: 40px; text-align: left;">0%</span>
+        </div>
+        <div class="poll-row">
+          <span style="width: 24px; color: #fde047;">ج</span>
+          <div class="poll-bar-bg"><div id="pBar2" class="poll-bar-fill"></div></div>
+          <span id="pVal2" style="width: 40px; text-align: left;">0%</span>
+        </div>
+        <div class="poll-row">
+          <span style="width: 24px; color: #fde047;">د</span>
+          <div class="poll-bar-bg"><div id="pBar3" class="poll-bar-fill"></div></div>
+          <span id="pVal3" style="width: 40px; text-align: left;">0%</span>
+        </div>
+      </div>
+
+      <button onclick="closeModal('audienceModal')" class="btn btn-gold" style="width: 100%; justify-content: center; padding: 10px;">
+        إغلاق واستكمال الإجابة
+      </button>
+    </div>
+  </div>
+
+  <!-- 2. Teacher Hint Modal -->
+  <div id="hintModal" class="modal-overlay hidden">
+    <div class="modal-box" style="border-color: #38bdf8;">
+      <div class="modal-icon">👩‍🏫</div>
+      <h3 style="color: #7dd3fc; font-weight: 900; margin-bottom: 10px; font-size: 1.15rem;">تلميح وتوجيه المعلمة</h3>
+      <div style="background: rgba(15, 23, 42, 0.7); padding: 14px; border-radius: 12px; border: 1px solid #334155; margin-bottom: 16px; text-align: right;">
+        <p id="hintContentText" style="color: #e2e8f0; font-size: 0.9rem; line-height: 1.6; font-weight: bold;"></p>
+      </div>
+      <button onclick="closeModal('hintModal')" class="btn btn-primary" style="width: 100%; justify-content: center; padding: 10px;">
+        فهمتُ التلميح، شكراً أستاذتي
+      </button>
+    </div>
+  </div>
+
+  <!-- 3. Question Result / Feedback Modal -->
+  <div id="feedbackModal" class="modal-overlay hidden">
+    <div class="modal-box">
+      <div id="feedbackIcon" class="modal-icon">🎉</div>
+      <h3 id="feedbackTitle" style="font-size: 1.25rem; font-weight: 900; margin-bottom: 10px;">إجابة صحيحة!</h3>
+      
+      <div style="background: rgba(15, 23, 42, 0.8); border: 1px solid #334155; border-radius: 12px; padding: 14px; text-align: right; margin-bottom: 16px; font-size: 0.85rem;">
+        <div id="feedbackCorrectAnswer" style="color: #fde047; font-weight: 800; margin-bottom: 6px;"></div>
+        <p id="feedbackExplanation" style="color: #cbd5e1; line-height: 1.6;"></p>
+      </div>
+
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; font-size: 0.85rem;">
+        <span style="color: #94a3b8;">الرصيد المكتسب:</span>
+        <strong id="feedbackPrize" style="color: #fde047; font-size: 1rem;">1,000 د.ك</strong>
+      </div>
+
+      <button id="feedbackNextBtn" onclick="nextQuestionOrFinish()" class="btn btn-gold" style="width: 100%; justify-content: center; padding: 10px; font-size: 0.9rem;">
+        الانتقال إلى المحطة التالية ⬅️
+      </button>
+    </div>
+  </div>
+
+  <!-- 4. Game Over / Millionaire Winner Modal -->
+  <div id="gameOverModal" class="modal-overlay hidden">
+    <div class="modal-box" style="border-color: #f59e0b; max-width: 520px;">
+      <div id="gameOverIcon" class="modal-icon">🏆</div>
+      <h2 id="gameOverTitle" style="font-size: 1.5rem; font-weight: 900; color: #fef08a; margin-bottom: 8px;">مبارك فوزك بالمليون!</h2>
+      <p id="gameOverMessage" style="font-size: 0.85rem; color: #cbd5e1; line-height: 1.6; margin-bottom: 16px;"></p>
+
+      <div style="background: #1e293b; padding: 14px; border-radius: 12px; margin-bottom: 18px; border: 1px solid #334155;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; font-size: 0.85rem;">
+          <span style="color: #94a3b8;">الجائزة النهائية المحققة:</span>
+          <strong id="gameOverFinalPrize" style="color: #fde047; font-size: 1.2rem;">1,000,000 د.ك</strong>
+        </div>
+        <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.8rem;">
+          <span style="color: #94a3b8;">محطة الأمان المعتمدة:</span>
+          <span style="color: #34d399; font-weight: bold;">50,000 د.ك (السؤال الخامس)</span>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 10px;">
+        <button onclick="restartGame()" class="btn btn-gold" style="flex: 1; justify-content: center; padding: 10px;">
+          🔄 جولة جديدة
+        </button>
+        <button onclick="closeModal('gameOverModal'); switchView('teacher');" class="btn btn-secondary" style="flex: 1; justify-content: center; padding: 10px;">
+          📋 مراجعة الحلول
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    /*
+      قائمة الأسئلة الـ 10 مرتبة تصاعدياً من السهل إلى التحدي الأقصى
+      مستندة بصورة دقيقة إلى الآيات والمعاني من بطاقة معجم الوسيط المعطاة:
+      1. يُحْبَرُونَ -> يسعدون - ينعمون
+      2. أَلْسِنَتِكُمْ -> لغاتكم - لهجاتكم
+      3. آيَاتِهِ -> دلائله - علامات
+      4. وَابْتِغَاؤُكُم -> طلبكم
+      5. طَمَعًا -> طلب ورجاء (محطة الأمان)
+      6. قَانِتُونَ -> خاضعون - منقادون
+      7. أَهْوَنُ -> أسهل - أيسر
+      8. المعجم الوسيط والاشتقاق: جذر (ح ب ر)
+      9. البلاغة والمقابلة: خوفاً وطمعاً
+      10. التحليل الدلالي الدقيق: معنى القنوت الشامل في سورة الروم
+    */
+    const questions = [
+      {
+        id: 1,
+        level: "سهل جداً",
+        value: 1000,
+        verse: "﴿فَهُمْ فِي رَوْضَةٍ يُحْبَرُونَ﴾",
+        targetWord: "يُحْبَرُونَ",
+        prompt: "ما المعنى المعتمد لكلمة (يُحْبَرُونَ) في قوله تعالى كما جاء في المعجم الوسيط؟",
+        options: [
+          "يسعدون ويُنَعَّمون بأرقى النعيم",
+          "يكتبون بأقلام الحِبْر ويسجلون",
+          "يحبسون في مكان واسع",
+          "يتعجبون ويُدهشون من المنظر"
+        ],
+        correct: 0,
+        hint: "فكري في الجزاء الحسن للمؤمنين في الجنة من النعيم والسرور والابتهاج.",
+        explanation: "في المعجم الوسيط: حَبَرَهُ حَبْراً: سَرَّهُ وفَرَّحَهُ ونَعَّمَهُ، فـ (يُحْبَرُونَ) تعني: يُسعدون ويُنعمون إكراماً لهم.",
+        dist: [84, 5, 4, 7]
+      },
+      {
+        id: 2,
+        level: "سهل",
+        value: 5000,
+        verse: "﴿وَمِنْ آيَاتِهِ خَلْقُ السَّمَاوَاتِ وَالْأَرْضِ وَاخْتِلَافُ أَلْسِنَتِكُمْ وَأَلْوَانِكُمْ﴾",
+        targetWord: "أَلْسِنَتِكُمْ",
+        prompt: "ما المقصود بدلالة كلمة (أَلْسِنَتِكُمْ) في سياق الآية الكريمة؟",
+        options: [
+          "اختلاف أشكال وحجوم الأعضاء في الفم",
+          "لغاتكم ولهجاتكم المنطوقة بين الشعوب",
+          "مقدار الفصاحة والبلاغة الشعرية",
+          "اختلاف أصوات نغمات الكلام فقط"
+        ],
+        correct: 1,
+        hint: "الآية تتحدث عن تنوع بني آدم في الأرض في أصواتهم وتفاهمهم وتنوع أجناسهم ولغاتهم.",
+        explanation: "جاء في المعجم وكتب التفسير المعتمدة: اختلاف ألسنتكم أي لغاتكم ولهجاتكم التي تعبرون بها وتتفاهمون من خلالها.",
+        dist: [3, 89, 4, 4]
+      },
+      {
+        id: 3,
+        level: "سهل - متوسط",
+        value: 10000,
+        verse: "﴿وَمِنْ آيَاتِهِ أَنْ خَلَقَكُم مِّن تُرَابٍ ثُمَّ إِذَا أَنتُم بَشَرٌ تَنتَشِرُونَ﴾",
+        targetWord: "آيَاتِهِ",
+        prompt: "ما المعنى الدقيق لكلمة (آيَاتِهِ) الواردة في الآية ومثيلاتها في سورة الروم؟",
+        options: [
+          "سور القرآن الكريم المقروءة فقط",
+          "الألغاز الغامضة التي لا يدركها أحد",
+          "دلائله وبراهينه وعلامات قدرته",
+          "الشرائع المكتوبة في الكتب السابقة"
+        ],
+        correct: 2,
+        hint: "الآية الكريمة تدعو للتأمل في مظاهر الكون وعظمة صنع الله وخلقه للإنسان كدلالة على توحيده.",
+        explanation: "الآيات في المعجم الوسيط جمع آية، وهي: العلامة والأمارة، والمراد هنا: دلائله وعلامات قدرته ووحدانيته الباهرة.",
+        dist: [5, 3, 86, 6]
+      },
+      {
+        id: 4,
+        level: "متوسط",
+        value: 20000,
+        verse: "﴿وَمِنْ آيَاتِهِ مَنَامُكُم بِاللَّيْلِ وَالنَّهَارِ وَابْتِغَاؤُكُم مِّن فَضْلِهِ﴾",
+        targetWord: "وَابْتِغَاؤُكُم",
+        prompt: "ما معنى كلمة (وَابْتِغَاؤُكُم) في الآية الكريمة استناداً للمعجم الوسيط؟",
+        options: [
+          "زهدكم وإعراضكم عن الدنيا",
+          "طلبكم وسعيكم في تحصيل الرزق والمعاش",
+          "انتظاركم المساعدات دون سعي",
+          "تضرعكم أثناء الصلاة والدعاء"
+        ],
+        correct: 1,
+        hint: "اقترن النوم بالليل والنهار بالسعي والعمل للحصول على فضل الله ورزقه.",
+        explanation: "ابْتَغَى الشيءَ: طَلَبَهُ ورَغِبَ فيه. و(ابتغاؤكم من فضله) أي: طلبكم لرزق الله بالسعي والعمل.",
+        dist: [2, 85, 4, 9]
+      },
+      {
+        id: 5,
+        level: "محطة الأمان 🛡️",
+        value: 50000,
+        verse: "﴿وَمِنْ آيَاتِهِ يُرِيكُمُ الْبَرْقَ خَوْفًا وَطَمَعًا وَيُنَزِّلُ مِنَ السَّمَاءِ مَاءً﴾",
+        targetWord: "طَمَعًا",
+        prompt: "ما المعنى الصحيح لكلمة (طَمَعًا) بحسب المعجم الوسيط في هذا السياق القرآني؟",
+        options: [
+          "طلب ورجاء في نزول الغيث والخير والرحمة",
+          "الجشع والأنانية في الاستئثار بالأموال",
+          "الخوف والهلع من حدوث الصواعق",
+          "التردد والشك في تقلبات الطقس"
+        ],
+        correct: 0,
+        hint: "لاحظي الاقتران بين الخوف من أذى الصاعقة، والرجاء في نزول المطر النافع للأرض.",
+        explanation: "في المعجم الوسيط: الطَّمَعُ هو الأمل والحرص ورجاء الحصول على الشيء، وهنا: طلباً ورجاءً في غيث السماء وبركتها.",
+        dist: [91, 3, 4, 2]
+      },
+      {
+        id: 6,
+        level: "فوق المتوسط",
+        value: 100000,
+        verse: "﴿وَلَهُ مَن فِي السَّمَاوَاتِ وَالْأَرْضِ كُلٌّ لَّهُ قَانِتُونَ﴾",
+        targetWord: "قَانِتُونَ",
+        prompt: "ما المعنى المعتمد لـ (قَانِتُونَ) في الآية وفق ما ورد في المعجم الوسيط؟",
+        options: [
+          "مقيمون في أماكنهم لا يتحركون",
+          "صامتون عن الحديث والشهادة",
+          "خاضعون ومنقادون لعظمته وقضائه",
+          "يائسون من تدبير أمورهم"
+        ],
+        correct: 2,
+        hint: "الكون كله سماواته وأرضه يسير تحت مشيئة الله الخالقة ولا يعصي أمره التكويني.",
+        explanation: "في المعجم الوسيط: قَنَتَ لله: خَضَعَ وأَطَاعَ وأَقَرَّ بالعبودية، و(قانتون) أي: خاضعون منقادون ومستسلمون لجلاله.",
+        dist: [6, 4, 83, 7]
+      },
+      {
+        id: 7,
+        level: "متقدم",
+        value: 200000,
+        verse: "﴿وَهُوَ الَّذِي يَبْدَأُ الْخَلْقَ ثُمَّ يُعِيدُهُ وَهُوَ أَهْوَنُ عَلَيْهِ﴾",
+        targetWord: "أَهْوَنُ",
+        prompt: "ما معنى كلمة (أَهْوَنُ) في الآية الكريمة، وكيف تُفهم في حق الله سبحانه وتعالى؟",
+        options: [
+          "أقل شأناً ومكانة في الحساب",
+          "أسهل وأيسر (بمقاييس عقول البشر، وإلا فكل شيء على الله هيّن)",
+          "يحتاج زمناً أقصر في الإنجاز",
+          "أكثر مشقة وصعوبة من الخلق الأول"
+        ],
+        correct: 1,
+        hint: "القرآن يخاطب عقل الإنسان: إذا كنت قادراً على الابتداء، فالإعادة في منطق البشر أيسر وأسهل.",
+        explanation: "أَهْوَنُ: أسهل وأيسر. قال المعجم الوسيط: هانَ الشيءُ: سَهُلَ وتَيَسَّرَ. والآية ضرب مثل للناس، وإلا فإن قدرة الله لا يعجزها شيء.",
+        dist: [5, 87, 3, 5]
+      },
+      {
+        id: 8,
+        level: "تحدٍّ لغوي وصرفي",
+        value: 400000,
+        verse: "﴿فَأَمَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ فَهُمْ فِي رَوْضَةٍ يُحْبَرُونَ﴾",
+        targetWord: "الجذر اللغوي والاشتقاق",
+        prompt: "ما الجذر اللغوي للفعل (يُحْبَرُونَ)، وما المعنى الأصل لهذا الجذر في المعجم الوسيط؟",
+        options: [
+          "جذر (ح - ب - ر) وأصله: التزيين والتحسين وإدخال السرور الكامل",
+          "جذر (ب - ح - ر) وأصله: الاتساع والعمق في العلم",
+          "جذر (ح - ب - ب) وأصله: الود والألفة والتقارب",
+          "جذر (ح - ب - س) وأصله: المنع والإمساك في الرياض"
+        ],
+        correct: 0,
+        hint: "تأملي حروف الفعل المجرد الثلاثي، ولاحظي علاقة التحبير بالجمال والنضارة وسرور النفس.",
+        explanation: "الجذر (ح ب ر)، ومنه الحَبْر وهو الأثر الحسن والزينة، وحَبَّرَ الشيءَ: حسّنه وزيّنه، والحَبْرَة هي النعمة وسرور القلب وبهجته.",
+        dist: [78, 8, 7, 7]
+      },
+      {
+        id: 9,
+        level: "تحدٍّ بلاغي ودلالي",
+        value: 700000,
+        verse: "﴿يُرِيكُمُ الْبَرْقَ خَوْفًا وَطَمَعًا﴾",
+        targetWord: "خَوْفًا وَطَمَعًا",
+        prompt: "ما العلاقة البلاغية بين كلمتي (خَوْفًا) و(طَمَعًا)، وما أثرها في إبراز دلالة المعنى؟",
+        options: [
+          "ترادف يؤكد شدة الفزع من تقلبات الجو",
+          "طباق يبرز شمول قدرة الله والجمع بين رجاء الخير والحذر من الخطر",
+          "جناس تام يحدث جرساً موسيقياً متطابقاً",
+          "سجع صوتي ينبه السامع لانقطاع الكلام"
+        ],
+        correct: 1,
+        hint: "الخوف ضد الطمع، والجمع بين الضدين يبرز المعنى ويوضحه في البلاغة العربية.",
+        explanation: "بينهما (طباق إيجاب)، فالخوف من الصواعق والأذى يقابله الطمع والرجاء في الغيث والنماء، والضد يظهر حسنه الضد.",
+        dist: [6, 88, 3, 3]
+      },
+      {
+        id: 10,
+        level: "سؤال المليون 🏆",
+        value: 1000000,
+        verse: "﴿وَلَهُ مَن فِي السَّمَاوَاتِ وَالْأَرْضِ كُلٌّ لَّهُ قَانِتُونَ﴾",
+        targetWord: "القنوت الدلالي",
+        prompt: "ما الفارق الدلالي الدقيق بين (القُنوت) في سياق سورة الروم وبين مفهوم (الطاعة العادية)؟",
+        options: [
+          "القنوت هنا هو الخضوع الكوني التام والانقياد التام الشامل لجلال قدرته طوعاً وكرهاً",
+          "القنوت يقتصر فقط على إطالة الدعاء في ركعة الوتر الأخيرة",
+          "القنوت طاعة مظهرية مؤقتة تزول عند المصائب والشدائد",
+          "القنوت تكليف خاص بالملائكة في السماء دون مخلوقات الأرض"
+        ],
+        correct: 0,
+        hint: "الآية عممت (مَن في السماوات والأرض كُلٌّ له قانتون)، فكيف يشمل القنوت كل الكون حتى الجمادات؟",
+        explanation: "في سورة الروم القنوت دلالته كونية مطلقة، أي أن جميع المخلوقات خاضعة لسنته وتدبيره ومشيئته التكوينية التامة دون استثناء.",
+        dist: [82, 6, 4, 8]
+      }
+    ];
+
+    const prizeLadder = [
+      { q: 1, amount: "1,000", safe: false },
+      { q: 2, amount: "5,000", safe: false },
+      { q: 3, amount: "10,000", safe: false },
+      { q: 4, amount: "20,000", safe: false },
+      { q: 5, amount: "50,000", safe: true, label: "محطة أمان 🛡️" },
+      { q: 6, amount: "100,000", safe: false },
+      { q: 7, amount: "200,000", safe: false },
+      { q: 8, amount: "400,000", safe: false },
+      { q: 9, amount: "700,000", safe: false },
+      { q: 10, amount: "1,000,000", safe: true, label: "المليون 🏆" }
+    ];
+  </script>
+
+  <script>
+    let currentIdx = 0;
+    let selectedOpt = null;
+    let isConfirmed = false;
+    let audioOn = true;
+    let audioCtx = null;
+
+    const lifelines = {
+      fifty: true,
+      audience: true,
+      hint: true
+    };
+
+    /* Built-in Offline Web Audio API Synthesizer */
+    function getAudioContext() {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+      if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+      }
+      return audioCtx;
+    }
+
+    function beep(freq, type, duration, delay = 0, gainLevel = 0.15) {
+      if (!audioOn) return;
+      try {
+        const ctx = getAudioContext();
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        const start = ctx.currentTime + delay;
+
+        osc.type = type;
+        osc.frequency.setValueAtTime(freq, start);
+
+        gain.gain.setValueAtTime(gainLevel, start);
+        gain.gain.exponentialRampToValueAtTime(0.0001, start + duration);
+
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+
+        osc.start(start);
+        osc.stop(start + duration);
+      } catch (err) {
+        // Audio fallback
+      }
+    }
+
+    function soundSelect() { beep(440, 'sine', 0.08); }
+    function soundLifeline() { beep(523, 'triangle', 0.12); beep(659, 'sine', 0.15, 0.08); }
+    function soundSuspense() { beep(180, 'sawtooth', 0.35); beep(196, 'sawtooth', 0.45, 0.15); }
+    function soundCorrect() {
+      beep(523.25, 'triangle', 0.15, 0);
+      beep(659.25, 'triangle', 0.18, 0.12);
+      beep(783.99, 'triangle', 0.25, 0.25);
+      beep(1046.5, 'sine', 0.5, 0.38, 0.25);
+    }
+    function soundWrong() {
+      beep(260, 'sawtooth', 0.2, 0);
+      beep(190, 'sawtooth', 0.4, 0.18);
+    }
+    function soundFanfare() {
+      const scale = [523.25, 659.25, 783.99, 1046.5, 1318.5, 1567.9];
+      scale.forEach((f, i) => beep(f, 'triangle', 0.35, i * 0.12, 0.2));
+    }
+
+    function toggleAudio() {
+      audioOn = !audioOn;
+      const btn = document.getElementById('audioToggleBtn');
+      btn.textContent = audioOn ? '🔊' : '🔇';
+    }
+
+    /* Built-in Offline Canvas Confetti Animation */
+    const canvas = document.getElementById('confettiCanvas');
+    const ctx = canvas.getContext('2d');
+    let particles = [];
+    let animationId = null;
+
+    function resizeCanvas() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    }
+    window.addEventListener('resize', resizeCanvas);
+    resizeCanvas();
+
+    function triggerOfflineConfetti(count = 70) {
+      const colors = ['#f59e0b', '#3b82f6', '#10b981', '#ec4899', '#eab308', '#ffffff'];
+      for (let i = 0; i < count; i++) {
+        particles.push({
+          x: canvas.width * (0.3 + Math.random() * 0.4),
+          y: canvas.height * 0.6,
+          vx: (Math.random() - 0.5) * 12,
+          vy: (Math.random() - 1) * 14 - 3,
+          size: Math.random() * 7 + 4,
+          color: colors[Math.floor(Math.random() * colors.length)],
+          rotation: Math.random() * 360,
+          rotationSpeed: (Math.random() - 0.5) * 10,
+          opacity: 1
+        });
+      }
+      if (!animationId) {
+        animateConfetti();
+      }
+    }
+
+    function animateConfetti() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      for (let i = particles.length - 1; i >= 0; i--) {
+        const p = particles[i];
+        p.x += p.vx;
+        p.y += p.vy;
+        p.vy += 0.35; // Gravity
+        p.rotation += p.rotationSpeed;
+        p.opacity -= 0.008;
+
+        if (p.opacity <= 0 || p.y > canvas.height) {
+          particles.splice(i, 1);
+          continue;
+        }
+
+        ctx.save();
+        ctx.translate(p.x, p.y);
+        ctx.rotate((p.rotation * Math.PI) / 180);
+        ctx.fillStyle = p.color;
+        ctx.globalAlpha = Math.max(p.opacity, 0);
+        ctx.fillRect(-p.size / 2, -p.size / 2, p.size, p.size);
+        ctx.restore();
+      }
+
+      if (particles.length > 0) {
+        animationId = requestAnimationFrame(animateConfetti);
+      } else {
+        cancelAnimationFrame(animationId);
+        animationId = null;
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+      }
+    }
+  </script>
+
+  <script>
+    function renderLadder() {
+      const container = document.getElementById('ladderList');
+      container.innerHTML = '';
+
+      for (let i = prizeLadder.length - 1; i >= 0; i--) {
+        const step = prizeLadder[i];
+        const isCurrent = i === currentIdx;
+        const isPast = i < currentIdx;
+
+        const row = document.createElement('div');
+        row.className = `ladder-step ${isCurrent ? 'current' : isPast ? 'past' : step.safe ? 'safe' : ''}`;
+
+        let statusSymbol = `<span style="width:20px; text-align:center;">${step.q}</span>`;
+        if (isCurrent) statusSymbol = `<span style="width:20px; text-align:center;">👉</span>`;
+        else if (isPast) statusSymbol = `<span style="width:20px; text-align:center; color:#34d399;">✓</span>`;
+
+        let safeTag = step.safe ? `<span style="font-size:10px; padding:1px 5px; background:rgba(0,0,0,0.3); border-radius:4px; margin-right:4px;">${step.label}</span>` : '';
+
+        row.innerHTML = `
+          <div style="display:flex; align-items:center; gap:6px;">
+            ${statusSymbol}
+            <span>${safeTag}</span>
+          </div>
+          <span>${step.amount} د.ك</span>
+        `;
+        container.appendChild(row);
+      }
+
+      const guaranteedEl = document.getElementById('safeGuaranteedText');
+      if (currentIdx >= 4) {
+        guaranteedEl.textContent = "50,000 د.ك (محطة أمان)";
+      } else {
+        guaranteedEl.textContent = "0 د.ك (قبل الأمان)";
+      }
+    }
+
+    function loadQuestion() {
+      const q = questions[currentIdx];
+      selectedOpt = null;
+      isConfirmed = false;
+
+      document.getElementById('questionBadge').textContent = `السؤال ${q.id} من 10`;
+      document.getElementById('diffBadge').textContent = q.level;
+      document.getElementById('prizeAmountBadge').textContent = `${prizeLadder[currentIdx].amount} د.ك`;
+      document.getElementById('verseQuote').textContent = q.verse;
+      document.getElementById('questionPrompt').textContent = q.prompt;
+
+      for (let i = 0; i < 4; i++) {
+        const btn = document.getElementById(`optBtn${i}`);
+        const txt = document.getElementById(`optText${i}`);
+        btn.className = "answer-btn";
+        btn.disabled = false;
+        btn.style.visibility = 'visible';
+        txt.textContent = q.options[i];
+      }
+
+      const confirmBtn = document.getElementById('confirmBtn');
+      confirmBtn.disabled = true;
+      confirmBtn.className = "confirm-btn";
+      confirmBtn.textContent = "ثبّت الإجابة النهائية 🔒";
+
+      renderLadder();
+    }
+
+    function selectOption(index) {
+      if (isConfirmed) return;
+      soundSelect();
+      selectedOpt = index;
+
+      for (let i = 0; i < 4; i++) {
+        document.getElementById(`optBtn${i}`).classList.remove('selected');
+      }
+      document.getElementById(`optBtn${index}`).classList.add('selected');
+
+      const confirmBtn = document.getElementById('confirmBtn');
+      confirmBtn.disabled = false;
+      confirmBtn.className = "confirm-btn active";
+      confirmBtn.textContent = "تثبيت الجواب النهائي! 🔒";
+    }
+
+    function confirmSelection() {
+      if (selectedOpt === null || isConfirmed) return;
+      isConfirmed = true;
+      soundSuspense();
+
+      for (let i = 0; i < 4; i++) {
+        document.getElementById(`optBtn${i}`).disabled = true;
+      }
+      document.getElementById('confirmBtn').disabled = true;
+
+      const q = questions[currentIdx];
+      const isCorrect = selectedOpt === q.correct;
+      const selectedBtn = document.getElementById(`optBtn${selectedOpt}`);
+      const correctBtn = document.getElementById(`optBtn${q.correct}`);
+
+      setTimeout(() => {
+        if (isCorrect) {
+          soundCorrect();
+          selectedBtn.classList.remove('selected');
+          selectedBtn.classList.add('correct');
+
+          if (q.id === 5 || q.id === 10) {
+            triggerOfflineConfetti(q.id === 10 ? 120 : 60);
+          }
+
+          setTimeout(() => {
+            showFeedback(true, q);
+          }, 1100);
+        } else {
+          soundWrong();
+          selectedBtn.classList.remove('selected');
+          selectedBtn.classList.add('wrong');
+          correctBtn.classList.add('correct');
+
+          setTimeout(() => {
+            showFeedback(false, q);
+          }, 1300);
+        }
+      }, 900);
+    }
+
+    function showFeedback(isCorrect, q) {
+      const letters = ['أ', 'ب', 'ج', 'د'];
+      const modal = document.getElementById('feedbackModal');
+      const icon = document.getElementById('feedbackIcon');
+      const title = document.getElementById('feedbackTitle');
+      const correctTxt = document.getElementById('feedbackCorrectAnswer');
+      const expTxt = document.getElementById('feedbackExplanation');
+      const prizeTxt = document.getElementById('feedbackPrize');
+      const nextBtn = document.getElementById('feedbackNextBtn');
+
+      if (isCorrect) {
+        icon.textContent = "✨";
+        title.textContent = q.id === 10 ? "مذهل! لقد حققت المليون!" : "إجابة ممتازة وصحيحة!";
+        title.style.color = "#34d399";
+        correctTxt.textContent = `الإجابة الصائبة: (${letters[q.correct]}) ${q.options[q.correct]}`;
+        expTxt.textContent = q.explanation;
+        prizeTxt.textContent = `${prizeLadder[currentIdx].amount} د.ك`;
+        nextBtn.textContent = currentIdx === 9 ? "استلام شيك المليون 🏆" : "المحطة التالية ⬅️";
+      } else {
+        icon.textContent = "❌";
+        title.textContent = "إجابة غير موفقة، حظاً أوفر!";
+        title.style.color = "#f87171";
+        correctTxt.textContent = `الصواب في المعجم الوسيط: (${letters[q.correct]}) ${q.options[q.correct]}`;
+        expTxt.textContent = q.explanation;
+
+        let guaranteed = "0 د.ك";
+        if (currentIdx >= 4) guaranteed = "50,000 د.ك (محطة أمان مضمونة)";
+        prizeTxt.textContent = guaranteed;
+        nextBtn.textContent = "عرض النتيجة الختامية 🏁";
+      }
+
+      modal.classList.remove('hidden');
+    }
+
+    function nextQuestionOrFinish() {
+      closeModal('feedbackModal');
+      const q = questions[currentIdx];
+      const isCorrect = selectedOpt === q.correct;
+
+      if (!isCorrect) {
+        showGameOver(false);
+        return;
+      }
+
+      if (currentIdx < questions.length - 1) {
+        currentIdx++;
+        loadQuestion();
+      } else {
+        showGameOver(true);
+      }
+    }
+
+    function showGameOver(isWinner) {
+      const modal = document.getElementById('gameOverModal');
+      const title = document.getElementById('gameOverTitle');
+      const icon = document.getElementById('gameOverIcon');
+      const msg = document.getElementById('gameOverMessage');
+      const prizeEl = document.getElementById('gameOverFinalPrize');
+
+      if (isWinner) {
+        soundFanfare();
+        triggerOfflineConfetti(150);
+        icon.textContent = "👑";
+        title.textContent = "مبارك! لقد فزت بالمليون كاملة!";
+        msg.textContent = "أتقنت جميع معاني مفردات سورة الروم المقررة بمنتهى الدقة والبراعة المعجمية.";
+        prizeEl.textContent = "1,000,000 د.ك";
+      } else {
+        icon.textContent = "👏";
+        title.textContent = "انتهت الجولة، بارك الله في سعيك!";
+        msg.textContent = "المحاولة خطوة ممتازة لترسيخ المفردات القرآنية. راجع دليل المعلم للاطلاع على كافة الإجابات الدقيقة.";
+        prizeEl.textContent = currentIdx >= 4 ? "50,000 د.ك (محطة الأمان)" : "0 د.ك";
+      }
+
+      modal.classList.remove('hidden');
+    }
+
+    /* 1. 50:50 Lifeline */
+    function useLifeline5050() {
+      if (!lifelines.fifty || isConfirmed) return;
+      lifelines.fifty = false;
+      soundLifeline();
+
+      const btn = document.getElementById('lifeline5050');
+      btn.disabled = true;
+      btn.querySelector('.lifeline-pill').textContent = 'تم';
+
+      const q = questions[currentIdx];
+      const wrong = [0, 1, 2, 3].filter(i => i !== q.correct);
+      wrong.sort(() => Math.random() - 0.5);
+
+      wrong.slice(0, 2).forEach(idx => {
+        const b = document.getElementById(`optBtn${idx}`);
+        b.style.visibility = 'hidden';
+        b.disabled = true;
+      });
+    }
+
+    /* 2. Audience Lifeline */
+    function useLifelineAudience() {
+      if (!lifelines.audience || isConfirmed) return;
+      lifelines.audience = false;
+      soundLifeline();
+
+      const btn = document.getElementById('lifelineAudience');
+      btn.disabled = true;
+      btn.querySelector('.lifeline-pill').textContent = 'تم';
+
+      const dist = questions[currentIdx].dist;
+      document.getElementById('audienceModal').classList.remove('hidden');
+
+      setTimeout(() => {
+        for (let i = 0; i < 4; i++) {
+          document.getElementById(`pBar${i}`).style.width = `${dist[i]}%`;
+          document.getElementById(`pVal${i}`).textContent = `${dist[i]}%`;
+        }
+      }, 120);
+    }
+
+    /* 3. Teacher Hint Lifeline */
+    function useLifelineHint() {
+      if (!lifelines.hint || isConfirmed) return;
+      lifelines.hint = false;
+      soundLifeline();
+
+      const btn = document.getElementById('lifelineHint');
+      btn.disabled = true;
+      btn.querySelector('.lifeline-pill').textContent = 'تم';
+
+      document.getElementById('hintContentText').textContent = questions[currentIdx].hint;
+      document.getElementById('hintModal').classList.remove('hidden');
+    }
+
+    function closeModal(id) {
+      document.getElementById(id).classList.add('hidden');
+    }
+
+    function restartGame() {
+      currentIdx = 0;
+      selectedOpt = null;
+      isConfirmed = false;
+
+      lifelines.fifty = true;
+      lifelines.audience = true;
+      lifelines.hint = true;
+
+      ['lifeline5050', 'lifelineAudience', 'lifelineHint'].forEach(id => {
+        const btn = document.getElementById(id);
+        btn.disabled = false;
+        btn.querySelector('.lifeline-pill').textContent = 'متاح';
+      });
+
+      closeModal('feedbackModal');
+      closeModal('gameOverModal');
+      closeModal('audienceModal');
+      closeModal('hintModal');
+
+      switchView('game');
+      loadQuestion();
+    }
+
+    function switchView(view) {
+      const gameView = document.getElementById('gameView');
+      const teacherView = document.getElementById('teacherView');
+      const navGameBtn = document.getElementById('navGameBtn');
+      const navTeacherBtn = document.getElementById('navTeacherBtn');
+
+      if (view === 'game') {
+        gameView.classList.remove('hidden');
+        teacherView.classList.add('hidden');
+        navGameBtn.className = "btn btn-primary";
+        navTeacherBtn.className = "btn btn-secondary";
+      } else {
+        gameView.classList.add('hidden');
+        teacherView.classList.remove('hidden');
+        navTeacherBtn.className = "btn btn-primary";
+        navGameBtn.className = "btn btn-secondary";
+      }
+    }
+
+    function renderTeacherTable() {
+      const tbody = document.getElementById('teacherTableBody');
+      const letters = ['أ', 'ب', 'ج', 'د'];
+      let html = '';
+
+      questions.forEach((q, idx) => {
+        const safeBadge = idx === 4 ? '<span style="background:#065f46; color:#a7f3d0; padding:2px 6px; border-radius:4px; font-size:10px; margin-right:4px;">نقطة أمان</span>' : '';
+        html += `
+          <tr>
+            <td style="text-align:center; font-weight:bold; color:#94a3b8;">${q.id}</td>
+            <td>
+              <div style="font-weight:bold; color:#fde047;">${q.targetWord}</div>
+              <div class="quran-font" style="font-size:1rem; color:#cbd5e1; margin-top:2px;">${q.verse}</div>
+            </td>
+            <td style="color:#34d399; font-weight:800;">
+              (${letters[q.correct]}) ${q.options[q.correct]}
+            </td>
+            <td style="color:#cbd5e1; font-size:0.8rem; line-height:1.5;">
+              ${q.explanation}
+            </td>
+            <td style="color:#fef08a; font-weight:bold; white-space:nowrap;">
+              ${prizeLadder[idx].amount} د.ك ${safeBadge}
+            </td>
+          </tr>
+        `;
+      });
+      tbody.innerHTML = html;
+    }
+
+    /* Save Entire Self-Contained HTML to Flash Drive / Local Disk */
+    function downloadSelfFile() {
+      try {
+        const fullSource = "<!DOCTYPE html>\n" + document.documentElement.outerHTML;
+        const blob = new Blob([fullSource], { type: "text/html;charset=utf-8" });
+        const downloadUrl = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = downloadUrl;
+        a.download = "من_سيربح_المليون_سورة_الروم_أوفلاين.html";
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(downloadUrl);
+      } catch (e) {
+        console.error("فشل التنزيل التلقائي", e);
+      }
+    }
+
+    window.onload = function() {
+      loadQuestion();
+      renderTeacherTable();
+    };
+  </script>
+
+  <!-- Offline Footer -->
+  <footer class="container" style="text-align: center; font-size: 0.75rem; color: #64748b; padding: 10px 0; border-top: 1px solid rgba(59, 130, 246, 0.2); margin-top: 16px;">
+    ملف مستقل بالكامل • يعمل بدون اتصال بالإنترنت • جاهز للنقل المباشر على الفلاش ميموري (USB) والشاشات التفاعلية
+  </footer>
+
+
+</body></html>
